@@ -1,0 +1,153 @@
+{
+	"name": "LevelSelectE",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Level1Start",
+					"sid": 436685438135931
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 406790298386782,
+					"parameters": {
+						"layout": "Level1"
+					}
+				}
+			],
+			"sid": 723969267071574
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Level2Start",
+					"sid": 259219745732849
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 919549143589351,
+					"parameters": {
+						"layout": "Level2"
+					}
+				}
+			],
+			"sid": 611405959059098
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Level3Start",
+					"sid": 184869755622826
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 972672176166937,
+					"parameters": {
+						"layout": "Level3"
+					}
+				}
+			],
+			"sid": 402544641289612
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Level4Start",
+					"sid": 677962107497416
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 462876024965413,
+					"parameters": {
+						"layout": "Level4"
+					}
+				}
+			],
+			"sid": 713953725809636
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Level5Start",
+					"sid": 830937532891152
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 383870608232184,
+					"parameters": {
+						"layout": "Level5"
+					}
+				}
+			],
+			"sid": 839662126558940
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Level6Start",
+					"sid": 270299967682100
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 927426413439814,
+					"parameters": {
+						"layout": "Level6"
+					}
+				}
+			],
+			"sid": 894849064543361
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Level7Start",
+					"sid": 388603907711631
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 444495418217818,
+					"parameters": {
+						"layout": "Level7"
+					}
+				}
+			],
+			"sid": 457985885889221
+		}
+	],
+	"sid": 709595494716755
+}

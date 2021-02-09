@@ -1,0 +1,27 @@
+{
+	"name": "StartScreenE",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "StartButton",
+					"sid": 174605891104639
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 589322190440215,
+					"parameters": {
+						"layout": "LevelSelect"
+					}
+				}
+			],
+			"sid": 536450416419698
+		}
+	],
+	"sid": 667478189430234
+}
