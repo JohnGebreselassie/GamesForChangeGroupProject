@@ -36,27 +36,35 @@
 					}
 				},
 				{
-					"type": "StartScreenText",
+					"type": "title",
 					"properties": {
 						"text": "Divine Intervention",
-						"placeholder": "",
-						"tooltip": "",
+						"enable-bbcode": true,
+						"font": "Roboto",
+						"size": 30,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
 						"initially-visible": true,
-						"enabled": true,
-						"read-only": false,
-						"spell-check": false,
-						"type": "text",
-						"auto-font-size": true,
-						"id": ""
+						"origin": "top-left"
 					},
 					"uid": 3,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 330,
-						"y": 28,
-						"width": 242,
-						"height": 87,
+						"x": 262,
+						"y": 164,
+						"width": 328,
+						"height": 59,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -64,7 +72,9 @@
 							1,
 							1,
 							1
-						]
+						],
+						"angle": 0,
+						"zElevation": 0
 					}
 				}
 			],

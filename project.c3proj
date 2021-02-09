@@ -51,7 +51,8 @@
 			"Level6Placeholder",
 			"Level7Placeholder",
 			"MiniGameButton1",
-			"Text"
+			"Text",
+			"title"
 		],
 		"subfolders": []
 	},
