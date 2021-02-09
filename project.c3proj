@@ -29,6 +29,14 @@
 			"author": "Scirra",
 			"version": "r234.3",
 			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"version": "r234.3",
+			"bundled": false
 		}
 	],
 	"uniqueId": "1wfs2x4ebcn",
@@ -49,7 +57,13 @@
 			"Level4Placeholder",
 			"Level5Placeholder",
 			"Level6Placeholder",
-			"Level7Placeholder"
+			"Level7Placeholder",
+			"PlaceholderCharacter",
+			"1_1Button",
+			"1_2Button",
+			"1_3Button",
+			"1_4Button",
+			"1_5Button"
 		],
 		"subfolders": []
 	},
