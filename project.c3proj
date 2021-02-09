@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 23402,
+	"savedWithRelease": 23403,
 	"name": "GamesForChangeGroupProject",
 	"runtime": "c3",
 	"useWorker": "auto",
@@ -11,7 +11,7 @@
 			"id": "Button",
 			"name": "Button",
 			"author": "Scirra",
-			"version": "r234.2",
+			"version": "r234.3",
 			"bundled": false
 		},
 		{
@@ -19,7 +19,7 @@
 			"id": "TextBox",
 			"name": "Text input",
 			"author": "Scirra",
-			"version": "r234.2",
+			"version": "r234.3",
 			"bundled": false
 		},
 		{
@@ -27,7 +27,7 @@
 			"id": "Text",
 			"name": "Text",
 			"author": "Scirra",
-			"version": "r234.2",
+			"version": "r234.3",
 			"bundled": false
 		}
 	],
