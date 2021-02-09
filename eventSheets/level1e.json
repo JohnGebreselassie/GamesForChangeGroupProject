@@ -1,5 +1,27 @@
 {
 	"name": "Level1E",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "MiniGameButton1",
+					"sid": 853103998706382
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 811686442508068,
+					"parameters": {
+						"layout": "Level1"
+					}
+				}
+			],
+			"sid": 551245712048820
+		}
+	],
 	"sid": 345356869808954
 }

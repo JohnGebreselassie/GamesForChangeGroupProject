@@ -1,5 +1,5 @@
 {
-	"name": "Level1",
+	"name": "Minigame5",
 	"layers": [
 		{
 			"name": "Layer 0",
@@ -8,7 +8,7 @@
 				{
 					"type": "Level1Placeholder",
 					"properties": {
-						"text": "Level1",
+						"text": "Take a Break to Play a Game",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 12,
@@ -27,14 +27,14 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 18,
+					"uid": 27,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 442,
-						"y": 232,
-						"width": 200,
-						"height": 30,
+						"x": 67,
+						"y": 20,
+						"width": 227,
+						"height": 26,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -48,25 +48,35 @@
 					}
 				},
 				{
-					"type": "MiniGameButton1",
+					"type": "Text",
 					"properties": {
-						"type": "button",
-						"text": "*insert task related to setting*",
-						"tooltip": "",
+						"text": "Tic-Tac-Toe",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 12,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
 						"initially-visible": true,
-						"enabled": true,
-						"auto-font-size": true,
-						"checked": false,
-						"id": ""
+						"origin": "top-left"
 					},
-					"uid": 11,
+					"uid": 28,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 124,
-						"y": 84,
-						"width": 138,
-						"height": 44,
+						"x": 381,
+						"y": 213,
+						"width": 167,
+						"height": 22,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -74,11 +84,13 @@
 							1,
 							1,
 							1
-						]
+						],
+						"angle": 0,
+						"zElevation": 0
 					}
 				}
 			],
-			"sid": 211245673191033,
+			"sid": 898867374697554,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"color": [
@@ -103,7 +115,7 @@
 			"global": false
 		}
 	],
-	"sid": 158457862933732,
+	"sid": 522229738859417,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 1708,

@@ -21,28 +21,6 @@
 				}
 			],
 			"sid": 536450416419698
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-created",
-					"objectClass": "title",
-					"sid": 569323750516523
-				}
-			],
-			"actions": [
-				{
-					"id": "typewriter-text",
-					"objectClass": "title",
-					"sid": 844713180789895,
-					"parameters": {
-						"text": "\"Divine Intervention\"",
-						"duration": "3"
-					}
-				}
-			],
-			"sid": 177718713285253
 		}
 	],
 	"sid": 667478189430234

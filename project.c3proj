@@ -29,14 +29,6 @@
 			"author": "Scirra",
 			"version": "r234.3",
 			"bundled": false
-		},
-		{
-			"type": "plugin",
-			"id": "Sprite",
-			"name": "Sprite",
-			"author": "Scirra",
-			"version": "r234.3",
-			"bundled": false
 		}
 	],
 	"uniqueId": "1wfs2x4ebcn",
@@ -58,12 +50,8 @@
 			"Level5Placeholder",
 			"Level6Placeholder",
 			"Level7Placeholder",
-			"PlaceholderCharacter",
-			"1_1Button",
-			"1_2Button",
-			"1_3Button",
-			"1_4Button",
-			"1_5Button"
+			"MiniGameButton1",
+			"Text"
 		],
 		"subfolders": []
 	},
@@ -83,7 +71,12 @@
 			"Level4",
 			"Level5",
 			"Level6",
-			"Level7"
+			"Level7",
+			"Minigame1",
+			"Minigame2",
+			"Minigame3",
+			"Minigame4",
+			"Minigame5"
 		],
 		"subfolders": []
 	},
