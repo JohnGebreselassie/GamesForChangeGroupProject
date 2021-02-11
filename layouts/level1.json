@@ -48,7 +48,7 @@
 					}
 				},
 				{
-					"type": "MiniGameButton1",
+					"type": "MinigameButton1",
 					"properties": {
 						"type": "button",
 						"text": "*insert task related to setting*",
@@ -63,8 +63,128 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 124,
-						"y": 84,
+						"x": 87,
+						"y": 62,
+						"width": 138,
+						"height": 44,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "MinigameButton2",
+					"properties": {
+						"type": "button",
+						"text": "*insert task related to setting*",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": ""
+					},
+					"uid": 29,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 408,
+						"y": 67,
+						"width": 138,
+						"height": 44,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "MinigameButton3",
+					"properties": {
+						"type": "button",
+						"text": "*insert task related to setting*",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": ""
+					},
+					"uid": 30,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 138,
+						"y": 231,
+						"width": 138,
+						"height": 44,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "MinigameButton4",
+					"properties": {
+						"type": "button",
+						"text": "*insert task related to setting*",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": ""
+					},
+					"uid": 31,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 627,
+						"y": 231,
+						"width": 138,
+						"height": 44,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "MinigameButton5",
+					"properties": {
+						"type": "button",
+						"text": "*insert task related to setting*",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": ""
+					},
+					"uid": 32,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 479,
+						"y": 380,
 						"width": 138,
 						"height": 44,
 						"originX": 0,

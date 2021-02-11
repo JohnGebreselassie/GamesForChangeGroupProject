@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 23403,
+	"savedWithRelease": 23404,
 	"name": "GamesForChangeGroupProject",
 	"runtime": "c3",
 	"useWorker": "auto",
@@ -11,7 +11,7 @@
 			"id": "Button",
 			"name": "Button",
 			"author": "Scirra",
-			"version": "r234.3",
+			"version": "r234.4",
 			"bundled": false
 		},
 		{
@@ -19,7 +19,7 @@
 			"id": "TextBox",
 			"name": "Text input",
 			"author": "Scirra",
-			"version": "r234.3",
+			"version": "r234.4",
 			"bundled": false
 		},
 		{
@@ -27,7 +27,7 @@
 			"id": "Text",
 			"name": "Text",
 			"author": "Scirra",
-			"version": "r234.3",
+			"version": "r234.4",
 			"bundled": false
 		}
 	],
@@ -50,9 +50,13 @@
 			"Level5Placeholder",
 			"Level6Placeholder",
 			"Level7Placeholder",
-			"MiniGameButton1",
+			"MinigameButton1",
 			"Text",
-			"title"
+			"title",
+			"MinigameButton2",
+			"MinigameButton3",
+			"MinigameButton4",
+			"MinigameButton5"
 		],
 		"subfolders": []
 	},
