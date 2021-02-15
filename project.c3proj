@@ -29,6 +29,14 @@
 			"author": "Scirra",
 			"version": "r234.4",
 			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
 		}
 	],
 	"uniqueId": "1wfs2x4ebcn",
@@ -56,7 +64,8 @@
 			"MinigameButton2",
 			"MinigameButton3",
 			"MinigameButton4",
-			"MinigameButton5"
+			"MinigameButton5",
+			"Background1"
 		],
 		"subfolders": []
 	},
