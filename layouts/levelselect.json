@@ -21,10 +21,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 120,
-						"y": 137,
-						"width": 72,
-						"height": 24,
+						"x": 133,
+						"y": 101,
+						"width": 133,
+						"height": 71,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -51,10 +51,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 366,
-						"y": 146,
-						"width": 72,
-						"height": 24,
+						"x": 395,
+						"y": 101,
+						"width": 133,
+						"height": 71,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -81,10 +81,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 560,
-						"y": 151,
-						"width": 72,
-						"height": 24,
+						"x": 648,
+						"y": 101,
+						"width": 133,
+						"height": 71,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -111,10 +111,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 126,
-						"y": 362,
-						"width": 72,
-						"height": 24,
+						"x": 136,
+						"y": 270,
+						"width": 133,
+						"height": 71,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -141,10 +141,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 391,
-						"y": 368,
-						"width": 72,
-						"height": 24,
+						"x": 395,
+						"y": 270,
+						"width": 133,
+						"height": 71,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -171,10 +171,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 572,
-						"y": 366,
-						"width": 72,
-						"height": 24,
+						"x": 648,
+						"y": 270,
+						"width": 133,
+						"height": 71,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -201,10 +201,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 737,
-						"y": 229,
-						"width": 72,
-						"height": 24,
+						"x": 395,
+						"y": 390,
+						"width": 133,
+						"height": 71,
 						"originX": 0,
 						"originY": 0,
 						"color": [

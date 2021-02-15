@@ -21,10 +21,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 379,
-						"y": 319,
-						"width": 127,
-						"height": 64,
+						"x": 371,
+						"y": 335,
+						"width": 128,
+						"height": 68,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -41,7 +41,7 @@
 						"text": "Divine Intervention",
 						"enable-bbcode": true,
 						"font": "Roboto",
-						"size": 30,
+						"size": 71,
 						"line-height": 0,
 						"bold": false,
 						"italic": false,
@@ -61,10 +61,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 262,
-						"y": 164,
-						"width": 328,
-						"height": 59,
+						"x": 45,
+						"y": 45,
+						"width": 756,
+						"height": 122,
 						"originX": 0,
 						"originY": 0,
 						"color": [
