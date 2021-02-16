@@ -239,10 +239,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 426,
-						"y": 161,
-						"width": 122,
-						"height": 90,
+						"x": 601,
+						"y": 427,
+						"width": 70,
+						"height": 76,
 						"originX": 0.5,
 						"originY": 0.45555555555555555,
 						"color": [
@@ -251,7 +251,7 @@
 							1,
 							1
 						],
-						"angle": 0,
+						"angle": 1.5707963267948966,
 						"zElevation": 0
 					}
 				}
