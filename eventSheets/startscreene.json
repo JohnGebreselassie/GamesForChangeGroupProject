@@ -14,7 +14,7 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 589322190440215,
+					"sid": 736767914403923,
 					"parameters": {
 						"layout": "LevelSelect"
 					}
@@ -43,6 +43,27 @@
 				}
 			],
 			"sid": 515824080710085
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-typewriter-text-finished",
+					"objectClass": "title",
+					"sid": 560016886750766
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "StartButton",
+					"sid": 405889345258193,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 755640316294685
 		}
 	],
 	"sid": 667478189430234

@@ -11,7 +11,7 @@
 						"type": "button",
 						"text": "Start",
 						"tooltip": "",
-						"initially-visible": true,
+						"initially-visible": false,
 						"enabled": true,
 						"auto-font-size": true,
 						"checked": false,
@@ -21,10 +21,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 371,
-						"y": 335,
-						"width": 128,
-						"height": 68,
+						"x": 369,
+						"y": 284,
+						"width": 160,
+						"height": 84,
 						"originX": 0,
 						"originY": 0,
 						"color": [
