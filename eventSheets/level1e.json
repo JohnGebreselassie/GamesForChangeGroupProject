@@ -105,6 +105,76 @@
 				}
 			],
 			"sid": 529933823728905
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "superSecretButton",
+					"sid": 142048650492289
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "Act",
+					"sid": 183560957290063,
+					"parameters": {
+						"opacity": "100"
+					}
+				}
+			],
+			"sid": 689179802768008
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-animation-finished",
+					"objectClass": "Act",
+					"sid": 150889989574952,
+					"parameters": {
+						"animation": "\"Animation 1\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "Act",
+					"sid": 638383335295036,
+					"parameters": {
+						"opacity": "0"
+					}
+				}
+			],
+			"sid": 988951693682575
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-animation-frame",
+					"objectClass": "Act",
+					"sid": 284508737233282,
+					"parameters": {
+						"comparison": 0,
+						"number": "2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "Tshirt",
+					"sid": 121666211226844,
+					"parameters": {
+						"opacity": "0"
+					}
+				}
+			],
+			"sid": 707498460450793
 		}
 	],
 	"sid": 345356869808954

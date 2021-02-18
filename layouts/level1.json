@@ -210,8 +210,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 427.5,
-						"y": 239,
+						"x": 426,
+						"y": 241,
 						"width": 851,
 						"height": 480,
 						"originX": 0.5,
@@ -227,7 +227,7 @@
 					}
 				},
 				{
-					"type": "Sprite",
+					"type": "Tshirt",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -239,10 +239,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 601,
-						"y": 427,
-						"width": 70,
-						"height": 76,
+						"x": 328,
+						"y": 431,
+						"width": 63,
+						"height": 97,
 						"originX": 0.5,
 						"originY": 0.45555555555555555,
 						"color": [
@@ -253,6 +253,65 @@
 						],
 						"angle": 1.5707963267948966,
 						"zElevation": 0
+					}
+				},
+				{
+					"type": "Act",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 35,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 426.00312957185776,
+						"y": 240.94759170363085,
+						"width": 846.9940598699274,
+						"height": 480,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							0
+						],
+						"angle": 0.0020159436312807144,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "superSecretButton",
+					"properties": {
+						"type": "button",
+						"text": "OK",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": ""
+					},
+					"uid": 36,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 279,
+						"y": 413,
+						"width": 86,
+						"height": 37,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							0
+						]
 					}
 				}
 			],

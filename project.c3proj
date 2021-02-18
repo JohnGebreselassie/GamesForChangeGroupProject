@@ -66,7 +66,9 @@
 			"MinigameButton4",
 			"MinigameButton5",
 			"Background1",
-			"Sprite"
+			"Tshirt",
+			"Act",
+			"superSecretButton"
 		],
 		"subfolders": []
 	},
