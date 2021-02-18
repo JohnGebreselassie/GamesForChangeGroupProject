@@ -259,7 +259,7 @@
 					"type": "Act",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "1-1 Animation",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false

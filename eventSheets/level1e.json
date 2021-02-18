@@ -133,9 +133,9 @@
 				{
 					"id": "on-animation-finished",
 					"objectClass": "Act",
-					"sid": 150889989574952,
+					"sid": 588421698832889,
 					"parameters": {
-						"animation": "\"Animation 1\""
+						"animation": "\"1-1 Animation\""
 					}
 				}
 			],
