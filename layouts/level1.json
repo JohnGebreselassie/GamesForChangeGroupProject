@@ -288,7 +288,7 @@
 					"type": "superSecretButton",
 					"properties": {
 						"type": "button",
-						"text": "OK",
+						"text": "andrew",
 						"tooltip": "",
 						"initially-visible": true,
 						"enabled": true,
