@@ -256,35 +256,6 @@
 					}
 				},
 				{
-					"type": "Act",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "1-1 Animation",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 35,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 426,
-						"y": 241,
-						"width": 846.9940598699274,
-						"height": 480,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							0
-						],
-						"angle": 0.0020159436312807144,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "superSecretButton",
 					"properties": {
 						"type": "button",
