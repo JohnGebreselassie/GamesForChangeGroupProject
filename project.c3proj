@@ -8,16 +8,16 @@
 	"usedAddons": [
 		{
 			"type": "plugin",
-			"id": "Button",
-			"name": "Button",
+			"id": "TextBox",
+			"name": "Text input",
 			"author": "Scirra",
 			"version": "r234.4",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
-			"id": "TextBox",
-			"name": "Text input",
+			"id": "Button",
+			"name": "Button",
 			"author": "Scirra",
 			"version": "r234.4",
 			"bundled": false
@@ -45,12 +45,19 @@
 			"author": "Scirra",
 			"version": "r234.4",
 			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Keyboard",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
 		}
 	],
 	"uniqueId": "1wfs2x4ebcn",
 	"objectTypes": {
 		"items": [
-			"StartButton",
 			"StartScreenText",
 			"Level1Start",
 			"Level2Start",
@@ -76,7 +83,10 @@
 			"Background1",
 			"Tshirt",
 			"11Background",
-			"Mouse"
+			"Mouse",
+			"Sprite",
+			"instructions",
+			"Keyboard"
 		],
 		"subfolders": []
 	},

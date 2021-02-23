@@ -3,23 +3,8 @@
 	"events": [
 		{
 			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-clicked",
-					"objectClass": "StartButton",
-					"sid": 174605891104639
-				}
-			],
-			"actions": [
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 736767914403923,
-					"parameters": {
-						"layout": "LevelSelect"
-					}
-				}
-			],
+			"conditions": [],
+			"actions": [],
 			"sid": 536450416419698
 		},
 		{
@@ -56,14 +41,38 @@
 			"actions": [
 				{
 					"id": "set-visible",
-					"objectClass": "StartButton",
-					"sid": 405889345258193,
+					"objectClass": "instructions",
+					"sid": 466013355885679,
 					"parameters": {
 						"visibility": "visible"
 					}
 				}
 			],
 			"sid": 755640316294685
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 414308965231414,
+					"parameters": {
+						"key": 13
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 485967480873308,
+					"parameters": {
+						"layout": "LevelSelect"
+					}
+				}
+			],
+			"sid": 972673133801008
 		}
 	],
 	"sid": 667478189430234
