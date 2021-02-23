@@ -67,7 +67,6 @@
 			"MinigameButton5",
 			"Background1",
 			"Tshirt",
-			"Act",
 			"superSecretButton"
 		],
 		"subfolders": []
@@ -93,7 +92,8 @@
 			"Minigame2",
 			"Minigame3",
 			"Minigame4",
-			"Minigame5"
+			"Minigame5",
+			"Act1-1"
 		],
 		"subfolders": []
 	},
@@ -107,7 +107,8 @@
 			"Level4E",
 			"Level5E",
 			"Level6E",
-			"Level7E"
+			"Level7E",
+			"Act1-1E"
 		],
 		"subfolders": []
 	},
