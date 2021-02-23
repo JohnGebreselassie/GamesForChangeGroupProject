@@ -45,6 +45,14 @@
 			"author": "Scirra",
 			"version": "r234.4",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "EightDir",
+			"name": "8 Direction",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
 		}
 	],
 	"uniqueId": "1wfs2x4ebcn",
@@ -76,7 +84,9 @@
 			"Background1",
 			"Tshirt",
 			"11Background",
-			"Mouse"
+			"Mouse",
+			"Sprite",
+			"Sprite2"
 		],
 		"subfolders": []
 	},
