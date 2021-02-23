@@ -110,33 +110,32 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-clicked",
-					"objectClass": "superSecretButton",
-					"sid": 142048650492289
-				}
-			],
-			"actions": [],
-			"sid": 689179802768008
-		},
-		{
-			"eventType": "block",
-			"conditions": [],
-			"actions": [
-				{
-					"id": "destroy",
-					"objectClass": "Tshirt",
-					"sid": 963432833417115
-				},
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 597166566155719,
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 817471311524258,
 					"parameters": {
-						"layout": "Act1-1"
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Tshirt"
 					}
 				}
 			],
-			"sid": 707498460450793
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 853942980959389,
+					"parameters": {
+						"layout": "Act1-1"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Tshirt",
+					"sid": 294809312777858
+				}
+			],
+			"sid": 189386714248495
 		}
 	],
 	"sid": 345356869808954

@@ -1,5 +1,52 @@
 {
 	"name": "Act1-1E",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-animation-finished",
+					"objectClass": "11Background",
+					"sid": 521916245808991,
+					"parameters": {
+						"animation": "\"Animation 1\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 988909049418065,
+					"parameters": {
+						"layout": "Level1"
+					}
+				}
+			],
+			"sid": 989945714211652
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-animation-frame",
+					"objectClass": "11Background",
+					"sid": 153973742879603,
+					"parameters": {
+						"comparison": 4,
+						"number": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Tshirt",
+					"sid": 661111826893649
+				}
+			],
+			"sid": 674743837351928
+		}
+	],
 	"sid": 863504082061432
 }

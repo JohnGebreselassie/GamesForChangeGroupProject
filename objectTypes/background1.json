@@ -2,7 +2,7 @@
 	"name": "Background1",
 	"plugin-id": "Sprite",
 	"sid": 687329770284724,
-	"isGlobal": true,
+	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
 	"effectTypes": [],

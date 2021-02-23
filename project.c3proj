@@ -37,6 +37,14 @@
 			"author": "Scirra",
 			"version": "r234.4",
 			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
 		}
 	],
 	"uniqueId": "1wfs2x4ebcn",
@@ -67,7 +75,8 @@
 			"MinigameButton5",
 			"Background1",
 			"Tshirt",
-			"superSecretButton"
+			"11Background",
+			"Mouse"
 		],
 		"subfolders": []
 	},

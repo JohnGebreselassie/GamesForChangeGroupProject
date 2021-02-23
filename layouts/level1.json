@@ -6,6 +6,35 @@
 			"overriden": 0,
 			"instances": [
 				{
+					"type": "Background1",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 33,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 428,
+						"y": 238,
+						"width": 851,
+						"height": 480,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "Level1Placeholder",
 					"properties": {
 						"text": "Level1",
@@ -31,8 +60,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 442,
-						"y": 232,
+						"x": 397,
+						"y": 214,
 						"width": 200,
 						"height": 30,
 						"originX": 0,
@@ -198,35 +227,6 @@
 					}
 				},
 				{
-					"type": "Background1",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 33,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 426,
-						"y": 241,
-						"width": 851,
-						"height": 480,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Tshirt",
 					"properties": {
 						"initially-visible": true,
@@ -239,8 +239,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 351,
-						"y": 433,
+						"x": 320,
+						"y": 441,
 						"width": 62.99999999999999,
 						"height": 97,
 						"originX": 0.5,
@@ -253,36 +253,6 @@
 						],
 						"angle": 1.5707963267948966,
 						"zElevation": 0
-					}
-				},
-				{
-					"type": "superSecretButton",
-					"properties": {
-						"type": "button",
-						"text": "andrew",
-						"tooltip": "",
-						"initially-visible": true,
-						"enabled": true,
-						"auto-font-size": true,
-						"checked": false,
-						"id": ""
-					},
-					"uid": 36,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 298,
-						"y": 412,
-						"width": 86,
-						"height": 38,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							0
-						]
 					}
 				}
 			],
