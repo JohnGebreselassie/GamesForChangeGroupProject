@@ -169,6 +169,11 @@
 					"parameters": {
 						"layout": "LevelSelect"
 					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Lvl1ProgressBar",
+					"sid": 868149855612601
 				}
 			],
 			"sid": 442784380271070

@@ -33,7 +33,7 @@
 				},
 				{
 					"id": "set-progress",
-					"objectClass": "ProgressBar",
+					"objectClass": "Lvl1ProgressBar",
 					"sid": 235888050308026,
 					"parameters": {
 						"value": "Lvl1Score"

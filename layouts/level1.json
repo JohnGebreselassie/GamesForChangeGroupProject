@@ -256,7 +256,7 @@
 					}
 				},
 				{
-					"type": "ProgressBar",
+					"type": "Lvl1ProgressBar",
 					"properties": {
 						"value": 0,
 						"maximum": 100,

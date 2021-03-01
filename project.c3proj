@@ -95,7 +95,7 @@
 			"Sprite",
 			"instructions",
 			"Keyboard",
-			"ProgressBar",
+			"Lvl1ProgressBar",
 			"Check1"
 		],
 		"subfolders": []
