@@ -79,7 +79,7 @@
 				{
 					"type": "instructions",
 					"properties": {
-						"text": "Press the ENTER key to start!",
+						"text": "Press any key to start!",
 						"enable-bbcode": true,
 						"font": "Franklin Gothic",
 						"size": 17,
@@ -102,9 +102,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 269,
-						"y": 305,
-						"width": 300,
+						"x": 294,
+						"y": 291,
+						"width": 226,
 						"height": 38,
 						"originX": 0,
 						"originY": 0,

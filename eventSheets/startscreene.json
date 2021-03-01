@@ -54,12 +54,9 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "key-is-down",
+					"id": "on-any-key-pressed",
 					"objectClass": "Keyboard",
-					"sid": 414308965231414,
-					"parameters": {
-						"key": 13
-					}
+					"sid": 685029637928880
 				}
 			],
 			"actions": [
