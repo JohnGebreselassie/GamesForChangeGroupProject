@@ -2,6 +2,16 @@
 	"name": "Level1E",
 	"events": [
 		{
+			"eventType": "variable",
+			"name": "Lvl1Score",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 285703414197364
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{

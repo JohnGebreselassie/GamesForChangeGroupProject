@@ -21,6 +21,23 @@
 					"parameters": {
 						"layout": "Level1"
 					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 499236733821511,
+					"parameters": {
+						"variable": "Lvl1Score",
+						"value": "30"
+					}
+				},
+				{
+					"id": "set-progress",
+					"objectClass": "ProgressBar",
+					"sid": 235888050308026,
+					"parameters": {
+						"value": "Lvl1Score"
+					}
 				}
 			],
 			"sid": 989945714211652

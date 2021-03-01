@@ -147,6 +147,32 @@
 				}
 			],
 			"sid": 457985885889221
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 142083394343001,
+					"parameters": {
+						"variable": "Lvl1Score",
+						"comparison": 0,
+						"value": "100"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "Check1",
+					"sid": 205133000584181,
+					"parameters": {
+						"opacity": "100"
+					}
+				}
+			],
+			"sid": 617407904716112
 		}
 	],
 	"sid": 709595494716755

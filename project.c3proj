@@ -53,6 +53,14 @@
 			"author": "Scirra",
 			"version": "r234.4",
 			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "progressbar",
+			"name": "Progress bar",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
 		}
 	],
 	"uniqueId": "1wfs2x4ebcn",
@@ -86,7 +94,9 @@
 			"Mouse",
 			"Sprite",
 			"instructions",
-			"Keyboard"
+			"Keyboard",
+			"ProgressBar",
+			"Check1"
 		],
 		"subfolders": []
 	},
