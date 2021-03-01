@@ -159,7 +159,88 @@
 			"subfolders": []
 		},
 		"font": {
-			"items": [],
+			"items": [
+				{
+					"name": "DotGothic16-Regular.ttf",
+					"type": "application/font-sfnt",
+					"sid": 472374490109341
+				},
+				{
+					"name": "PixelOperator.ttf",
+					"type": "application/font-sfnt",
+					"sid": 939823523001628
+				},
+				{
+					"name": "PixelOperator8.ttf",
+					"type": "application/font-sfnt",
+					"sid": 399177159623837
+				},
+				{
+					"name": "PixelOperator8-Bold.ttf",
+					"type": "application/font-sfnt",
+					"sid": 311001050022708
+				},
+				{
+					"name": "PixelOperator-Bold.ttf",
+					"type": "application/font-sfnt",
+					"sid": 775971042009828
+				},
+				{
+					"name": "PixelOperatorHB.ttf",
+					"type": "application/font-sfnt",
+					"sid": 227370459342572
+				},
+				{
+					"name": "PixelOperatorHB8.ttf",
+					"type": "application/font-sfnt",
+					"sid": 924717214954679
+				},
+				{
+					"name": "PixelOperatorHBSC.ttf",
+					"type": "application/font-sfnt",
+					"sid": 866572267116090
+				},
+				{
+					"name": "PixelOperatorMono.ttf",
+					"type": "application/font-sfnt",
+					"sid": 161397524295920
+				},
+				{
+					"name": "PixelOperatorMono8.ttf",
+					"type": "application/font-sfnt",
+					"sid": 618054435312750
+				},
+				{
+					"name": "PixelOperatorMono8-Bold.ttf",
+					"type": "application/font-sfnt",
+					"sid": 198209981882998
+				},
+				{
+					"name": "PixelOperatorMono-Bold.ttf",
+					"type": "application/font-sfnt",
+					"sid": 244427465880840
+				},
+				{
+					"name": "PixelOperatorMonoHB.ttf",
+					"type": "application/font-sfnt",
+					"sid": 627371645408296
+				},
+				{
+					"name": "PixelOperatorMonoHB8.ttf",
+					"type": "application/font-sfnt",
+					"sid": 107157163830783
+				},
+				{
+					"name": "PixelOperatorSC.ttf",
+					"type": "application/font-sfnt",
+					"sid": 643013294379349
+				},
+				{
+					"name": "PixelOperatorSC-Bold.ttf",
+					"type": "application/font-sfnt",
+					"sid": 122117253897744
+				}
+			],
 			"subfolders": []
 		},
 		"icon": {
