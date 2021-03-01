@@ -153,7 +153,7 @@
 				{
 					"id": "compare-eventvar",
 					"objectClass": "System",
-					"sid": 827056840732482,
+					"sid": 854639319224930,
 					"parameters": {
 						"variable": "Lvl1Score",
 						"comparison": 0,
