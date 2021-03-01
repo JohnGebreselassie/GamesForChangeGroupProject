@@ -25,10 +25,10 @@
 				{
 					"id": "add-to-eventvar",
 					"objectClass": "System",
-					"sid": 499236733821511,
+					"sid": 385894718907855,
 					"parameters": {
 						"variable": "Lvl1Score",
-						"value": "30"
+						"value": "100"
 					}
 				},
 				{
