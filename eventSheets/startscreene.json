@@ -20,10 +20,10 @@
 				{
 					"id": "typewriter-text",
 					"objectClass": "title",
-					"sid": 790708980099151,
+					"sid": 359717156689223,
 					"parameters": {
 						"text": "\"Divine Intervention\"",
-						"duration": "0.7"
+						"duration": "0.5"
 					}
 				}
 			],
@@ -46,6 +46,17 @@
 					"parameters": {
 						"visibility": "visible"
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 102218000764354,
+					"parameters": {
+						"audio-file": "4924073608478720",
+						"loop": "looping",
+						"volume": "1",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 755640316294685
@@ -67,6 +78,11 @@
 					"parameters": {
 						"layout": "LevelSelect"
 					}
+				},
+				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 388894814481014
 				}
 			],
 			"sid": 972673133801008

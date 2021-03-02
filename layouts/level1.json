@@ -281,35 +281,6 @@
 							1
 						]
 					}
-				},
-				{
-					"type": "Sprite2",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 42,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 613,
-						"y": 122,
-						"width": 106,
-						"height": 133,
-						"originX": 0.5051440329218106,
-						"originY": 0.5051440329218106,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
 				}
 			],
 			"sid": 211245673191033,
