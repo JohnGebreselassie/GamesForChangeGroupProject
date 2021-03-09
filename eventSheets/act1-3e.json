@@ -38,6 +38,11 @@
 					"parameters": {
 						"value": "Lvl1Score"
 					}
+				},
+				{
+					"id": "move-to-top",
+					"objectClass": "Tshirt",
+					"sid": 244451943733216
 				}
 			],
 			"sid": 509810534798950
