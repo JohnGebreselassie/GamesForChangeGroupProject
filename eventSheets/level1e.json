@@ -177,6 +177,63 @@
 				}
 			],
 			"sid": 442784380271070
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 125232714013635,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "InvisibleBedSprite"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 635494999296580,
+					"parameters": {
+						"layout": "Act1-2"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "InvisibleBedSprite",
+					"sid": 536969755910603
+				}
+			],
+			"sid": 934635244500233
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 328415721299327,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Amogus"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 629025413093706,
+					"parameters": {
+						"layout": "Act1-3"
+					}
+				}
+			],
+			"sid": 214439871764962
 		}
 	],
 	"sid": 345356869808954

@@ -1,0 +1,47 @@
+{
+	"name": "Act1-2E",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-animation-finished",
+					"objectClass": "12Background",
+					"sid": 162973627138939,
+					"parameters": {
+						"animation": "\"Animation 2\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 622356917691312,
+					"parameters": {
+						"layout": "Level1"
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 963627594405256,
+					"parameters": {
+						"variable": "Lvl1Score",
+						"value": "30"
+					}
+				},
+				{
+					"id": "set-progress",
+					"objectClass": "Lvl1ProgressBar",
+					"sid": 924090753842557,
+					"parameters": {
+						"value": "Lvl1Score"
+					}
+				}
+			],
+			"sid": 621623138314339
+		}
+	],
+	"sid": 154380384267110
+}

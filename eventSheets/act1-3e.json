@@ -1,0 +1,77 @@
+{
+	"name": "Act1-3E",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-animation-finished",
+					"objectClass": "13BackgroundB",
+					"sid": 502674046666298,
+					"parameters": {
+						"animation": "\"Animation 3\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 160379472336059,
+					"parameters": {
+						"layout": "Level1"
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 952815419593564,
+					"parameters": {
+						"variable": "Lvl1Score",
+						"value": "30"
+					}
+				},
+				{
+					"id": "set-progress",
+					"objectClass": "Lvl1ProgressBar",
+					"sid": 133347395228286,
+					"parameters": {
+						"value": "Lvl1Score"
+					}
+				}
+			],
+			"sid": 509810534798950
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-animation-frame",
+					"objectClass": "13BackgroundB",
+					"sid": 589549043433108,
+					"parameters": {
+						"comparison": 0,
+						"number": "2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Amogus",
+					"sid": 538248553445001
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Amogus2",
+					"sid": 562948800707143,
+					"parameters": {
+						"visibility": "visible"
+					}
+				}
+			],
+			"sid": 121915910051630
+		}
+	],
+	"sid": 518930348429819
+}

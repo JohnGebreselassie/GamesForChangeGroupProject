@@ -1,0 +1,57 @@
+{
+	"name": "Amogus2",
+	"plugin-id": "Sprite",
+	"sid": 779430356705945,
+	"isGlobal": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1280,
+						"height": 1280,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5544046,
+						"collisionPoly": {
+							"points": [
+								0.1171875,
+								0.1171875,
+								0.5,
+								0.1171875,
+								0.87421875,
+								0.125,
+								0.87421875,
+								0.5,
+								0.87421875,
+								0.87421875,
+								0.5,
+								0.87421875,
+								0.125,
+								0.87421875,
+								0.1171875,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 873133589852564,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

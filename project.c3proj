@@ -105,7 +105,13 @@
 			"Keyboard",
 			"Lvl1ProgressBar",
 			"Check1",
-			"Audio"
+			"Audio",
+			"InvisibleBedSprite",
+			"12Background",
+			"Amogus",
+			"13BackgroundA",
+			"13BackgroundB",
+			"Amogus2"
 		],
 		"subfolders": []
 	},
@@ -131,7 +137,9 @@
 			"Minigame3",
 			"Minigame4",
 			"Minigame5",
-			"Act1-1"
+			"Act1-1",
+			"Act1-2",
+			"Act1-3"
 		],
 		"subfolders": []
 	},
@@ -146,7 +154,9 @@
 			"Level5E",
 			"Level6E",
 			"Level7E",
-			"Act1-1E"
+			"Act1-1E",
+			"Act1-2E",
+			"Act1-3E"
 		],
 		"subfolders": []
 	},

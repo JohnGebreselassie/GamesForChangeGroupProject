@@ -18,10 +18,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 427,
-						"y": 240,
+						"x": 429,
+						"y": 241,
 						"width": 854,
-						"height": 480,
+						"height": 482,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -212,8 +212,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 479,
-						"y": 380,
+						"x": 582,
+						"y": 382,
 						"width": 138,
 						"height": 44,
 						"originX": 0,
@@ -224,6 +224,120 @@
 							1,
 							1
 						]
+					}
+				},
+				{
+					"type": "Lvl1ProgressBar",
+					"properties": {
+						"value": 0,
+						"maximum": 100,
+						"tooltip": "",
+						"initially-visible": true,
+						"id": ""
+					},
+					"uid": 40,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 327,
+						"y": 21,
+						"width": 200,
+						"height": 25,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "InvisibleBedSprite",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 44,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 398.5,
+						"y": 357,
+						"width": 269,
+						"height": 86,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Amogus",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 48,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 612,
+						"y": 141,
+						"width": 181,
+						"height": 199,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Amogus2",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 49,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 613,
+						"y": 142.5,
+						"width": 185,
+						"height": 195,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
 					}
 				},
 				{
@@ -253,33 +367,6 @@
 						],
 						"angle": 1.5707963267948966,
 						"zElevation": 0
-					}
-				},
-				{
-					"type": "Lvl1ProgressBar",
-					"properties": {
-						"value": 0,
-						"maximum": 100,
-						"tooltip": "",
-						"initially-visible": true,
-						"id": ""
-					},
-					"uid": 40,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 327,
-						"y": 21,
-						"width": 200,
-						"height": 25,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						]
 					}
 				}
 			],
