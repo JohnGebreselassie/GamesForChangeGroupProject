@@ -69,6 +69,14 @@
 			"author": "Scirra",
 			"version": "r234.4",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "EightDir",
+			"name": "8 Direction",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
 		}
 	],
 	"uniqueId": "1wfs2x4ebcn",
@@ -111,7 +119,9 @@
 			"Amogus",
 			"13BackgroundA",
 			"13BackgroundB",
-			"Amogus2"
+			"Amogus2",
+			"Sprite2",
+			"Sprite3"
 		],
 		"subfolders": []
 	},
