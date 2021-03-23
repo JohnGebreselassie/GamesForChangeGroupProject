@@ -69,6 +69,11 @@
 								"default-controls": true,
 								"enabled": true
 							}
+						},
+						"BoundToLayout": {
+							"properties": {
+								"bound-by": "edge"
+							}
 						}
 					},
 					"world": {
@@ -1190,8 +1195,8 @@
 	"sid": 592077146085201,
 	"nonworld-instances": [],
 	"effectTypes": [],
-	"width": 1708,
-	"height": 960,
+	"width": 854,
+	"height": 480,
 	"unboundedScrolling": false,
 	"eventSheet": "Level1E"
 }

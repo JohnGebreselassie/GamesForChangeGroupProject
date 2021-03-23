@@ -9,6 +9,11 @@
 			"behaviorId": "EightDir",
 			"name": "8Direction",
 			"sid": 316731858485410
+		},
+		{
+			"behaviorId": "bound",
+			"name": "BoundToLayout",
+			"sid": 781953665964390
 		}
 	],
 	"effectTypes": [],

@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 23404,
+	"savedWithRelease": 24100,
 	"name": "GamesForChangeGroupProject",
 	"runtime": "c3",
 	"useWorker": "auto",
@@ -11,7 +11,7 @@
 			"id": "TextBox",
 			"name": "Text input",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		},
 		{
@@ -19,7 +19,7 @@
 			"id": "Button",
 			"name": "Button",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		},
 		{
@@ -27,7 +27,7 @@
 			"id": "Text",
 			"name": "Text",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		},
 		{
@@ -35,7 +35,7 @@
 			"id": "Sprite",
 			"name": "Sprite",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		},
 		{
@@ -43,7 +43,7 @@
 			"id": "Mouse",
 			"name": "Mouse",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		},
 		{
@@ -51,7 +51,7 @@
 			"id": "Keyboard",
 			"name": "Keyboard",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		},
 		{
@@ -59,7 +59,7 @@
 			"id": "progressbar",
 			"name": "Progress bar",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		},
 		{
@@ -67,7 +67,7 @@
 			"id": "Audio",
 			"name": "Audio",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		},
 		{
@@ -75,7 +75,15 @@
 			"id": "EightDir",
 			"name": "8 Direction",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "bound",
+			"name": "Bound to layout",
+			"author": "Scirra",
+			"version": "r241",
 			"bundled": false
 		}
 	],
