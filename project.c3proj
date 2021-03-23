@@ -85,6 +85,14 @@
 			"author": "Scirra",
 			"version": "r241",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Bullet",
+			"name": "Bullet",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
 		}
 	],
 	"uniqueId": "1wfs2x4ebcn",
@@ -130,7 +138,8 @@
 			"Amogus2",
 			"Sprite2",
 			"Sprite3",
-			"Sprite4"
+			"Sprite4",
+			"Bullert"
 		],
 		"subfolders": []
 	},
@@ -175,7 +184,8 @@
 			"Level7E",
 			"Act1-1E",
 			"Act1-2E",
-			"Act1-3E"
+			"Act1-3E",
+			"Minigame1E"
 		],
 		"subfolders": []
 	},
