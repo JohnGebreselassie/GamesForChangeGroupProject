@@ -1,0 +1,55 @@
+{
+	"name": "spaceship",
+	"plugin-id": "Sprite",
+	"sid": 454579882372536,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "Variable1",
+			"type": "number",
+			"desc": "",
+			"sid": 587346755503750
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "TileMovement",
+			"name": "TileMovement",
+			"sid": 952375131742695
+		},
+		{
+			"behaviorId": "bound",
+			"name": "BoundToLayout",
+			"sid": 764384681249843
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 170,
+						"height": 92,
+						"originX": 0.5,
+						"originY": -0.25,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7152900,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 557228462002942,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

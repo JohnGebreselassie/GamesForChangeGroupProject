@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 23404,
+	"savedWithRelease": 24100,
 	"name": "GamesForChangeGroupProject",
 	"runtime": "c3",
 	"useWorker": "auto",
@@ -11,7 +11,7 @@
 			"id": "TextBox",
 			"name": "Text input",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		},
 		{
@@ -19,7 +19,7 @@
 			"id": "Button",
 			"name": "Button",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		},
 		{
@@ -27,7 +27,7 @@
 			"id": "Text",
 			"name": "Text",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		},
 		{
@@ -35,7 +35,7 @@
 			"id": "Sprite",
 			"name": "Sprite",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		},
 		{
@@ -43,7 +43,7 @@
 			"id": "Mouse",
 			"name": "Mouse",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		},
 		{
@@ -51,7 +51,7 @@
 			"id": "Keyboard",
 			"name": "Keyboard",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		},
 		{
@@ -59,7 +59,7 @@
 			"id": "progressbar",
 			"name": "Progress bar",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
 			"bundled": false
 		},
 		{
@@ -67,7 +67,31 @@
 			"id": "Audio",
 			"name": "Audio",
 			"author": "Scirra",
-			"version": "r234.4",
+			"version": "r241",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "TiledBg",
+			"name": "Tiled Background",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "TileMovement",
+			"name": "Tile movement",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "bound",
+			"name": "Bound to layout",
+			"author": "Scirra",
+			"version": "r241",
 			"bundled": false
 		}
 	],
@@ -111,7 +135,10 @@
 			"Amogus",
 			"13BackgroundA",
 			"13BackgroundB",
-			"Amogus2"
+			"Amogus2",
+			"spaceship",
+			"TiledBackground",
+			"alien1"
 		],
 		"subfolders": []
 	},
@@ -132,7 +159,7 @@
 			"Level5",
 			"Level6",
 			"Level7",
-			"Minigame1",
+			"SpaceInvaders",
 			"Minigame2",
 			"Minigame3",
 			"Minigame4",
