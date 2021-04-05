@@ -38,6 +38,13 @@
 						"exportQuality": 0.8,
 						"imageSpriteId": 7152900,
 						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "bulletSpawn",
+								"x": 0.5,
+								"y": 0.11956521739130435
+							}
+						],
 						"duration": 1
 					}
 				],

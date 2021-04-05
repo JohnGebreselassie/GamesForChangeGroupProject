@@ -56,7 +56,13 @@
 				{
 					"id": "on-any-key-pressed",
 					"objectClass": "Keyboard",
-					"sid": 685029637928880
+					"sid": 342927469171496
+				},
+				{
+					"id": "is-running-typewriter-text",
+					"objectClass": "title",
+					"sid": 731349287720201,
+					"isInverted": true
 				}
 			],
 			"actions": [

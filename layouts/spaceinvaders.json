@@ -99,7 +99,13 @@
 					},
 					"uid": 12,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"BoundToLayout": {
+							"properties": {
+								"bound-by": "edge"
+							}
+						}
+					},
 					"world": {
 						"x": 136,
 						"y": 81.5,
@@ -128,7 +134,13 @@
 					},
 					"uid": 13,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"BoundToLayout": {
+							"properties": {
+								"bound-by": "edge"
+							}
+						}
+					},
 					"world": {
 						"x": 256,
 						"y": 78,
@@ -157,7 +169,13 @@
 					},
 					"uid": 53,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"BoundToLayout": {
+							"properties": {
+								"bound-by": "edge"
+							}
+						}
+					},
 					"world": {
 						"x": 374,
 						"y": 81,
@@ -186,7 +204,13 @@
 					},
 					"uid": 54,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"BoundToLayout": {
+							"properties": {
+								"bound-by": "edge"
+							}
+						}
+					},
 					"world": {
 						"x": 483,
 						"y": 83,
@@ -215,7 +239,13 @@
 					},
 					"uid": 55,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"BoundToLayout": {
+							"properties": {
+								"bound-by": "edge"
+							}
+						}
+					},
 					"world": {
 						"x": 600,
 						"y": 80,
@@ -244,7 +274,13 @@
 					},
 					"uid": 56,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"BoundToLayout": {
+							"properties": {
+								"bound-by": "edge"
+							}
+						}
+					},
 					"world": {
 						"x": 202,
 						"y": 165,
@@ -273,9 +309,15 @@
 					},
 					"uid": 57,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"BoundToLayout": {
+							"properties": {
+								"bound-by": "edge"
+							}
+						}
+					},
 					"world": {
-						"x": 330,
+						"x": 320,
 						"y": 165,
 						"width": 98,
 						"height": 70,
@@ -302,7 +344,13 @@
 					},
 					"uid": 58,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"BoundToLayout": {
+							"properties": {
+								"bound-by": "edge"
+							}
+						}
+					},
 					"world": {
 						"x": 452,
 						"y": 167,
@@ -331,7 +379,13 @@
 					},
 					"uid": 59,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"BoundToLayout": {
+							"properties": {
+								"bound-by": "edge"
+							}
+						}
+					},
 					"world": {
 						"x": 721,
 						"y": 82,
@@ -360,7 +414,13 @@
 					},
 					"uid": 60,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"BoundToLayout": {
+							"properties": {
+								"bound-by": "edge"
+							}
+						}
+					},
 					"world": {
 						"x": 570,
 						"y": 168,
@@ -368,6 +428,133 @@
 						"height": 70,
 						"originX": 0.5,
 						"originY": 0.4928571428571429,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "bullet",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 61,
+					"instanceVariables": {},
+					"behaviors": {
+						"Bullet": {
+							"properties": {
+								"speed": 400,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 204.5,
+						"y": 526.66,
+						"width": 18.333333333333332,
+						"height": 12.6,
+						"originX": 0.54,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "pointText",
+					"properties": {
+						"text": "Points:",
+						"enable-bbcode": true,
+						"font": "PixelOperator8-Bold",
+						"size": 12,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 62,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 16,
+						"y": 9,
+						"width": 105,
+						"height": 30,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "pointValue",
+					"properties": {
+						"text": "0",
+						"enable-bbcode": true,
+						"font": "PixelOperatorHB8",
+						"size": 12,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 63,
+					"instanceVariables": {
+						"points": 5
+					},
+					"behaviors": {},
+					"world": {
+						"x": 131,
+						"y": 10,
+						"width": 44,
+						"height": 24,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,
@@ -410,5 +597,5 @@
 	"width": 1708,
 	"height": 960,
 	"unboundedScrolling": false,
-	"eventSheet": "Level1E"
+	"eventSheet": "Space Invaders Code"
 }

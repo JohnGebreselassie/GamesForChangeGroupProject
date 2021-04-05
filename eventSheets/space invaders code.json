@@ -1,0 +1,159 @@
+{
+	"name": "Space Invaders Code",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "pointsSpace",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 272620570973854
+		},
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 382075175731451
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-click",
+					"objectClass": "Mouse",
+					"sid": 480680059389493,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "spaceship",
+					"sid": 867083977449888,
+					"parameters": {
+						"object": "bullet",
+						"layer": "0",
+						"image-point": "1",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "set-angle-of-motion",
+					"objectClass": "bullet",
+					"sid": 823424857809577,
+					"behaviorType": "Bullet",
+					"parameters": {
+						"angle": "270"
+					}
+				}
+			],
+			"sid": 299988633884393
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "alien1",
+					"sid": 844199090320857,
+					"parameters": {
+						"object": "bullet"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "alien1",
+					"sid": 851758510801913
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 716816329686605,
+					"parameters": {
+						"variable": "pointsSpace",
+						"value": "5"
+					}
+				}
+			],
+			"sid": 791622205284459
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 335665269155238
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "pointValue",
+					"sid": 691194871231970,
+					"parameters": {
+						"text": "pointsSpace"
+					}
+				}
+			],
+			"sid": 823221166547586
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-outside-layout",
+					"objectClass": "bullet",
+					"sid": 186531946363008
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "bullet",
+					"sid": 410465509240826
+				}
+			],
+			"sid": 894517734494476
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 876447828042310,
+					"parameters": {
+						"variable": "pointsSpace",
+						"comparison": 0,
+						"value": "50"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 293135982690524,
+					"parameters": {
+						"layout": "Level1"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "MinigameButton1",
+					"sid": 650684506386097
+				}
+			],
+			"sid": 564748758087819
+		}
+	],
+	"sid": 418975288640909
+}

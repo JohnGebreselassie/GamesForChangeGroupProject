@@ -1,0 +1,16 @@
+{
+	"name": "pointValue",
+	"plugin-id": "Text",
+	"sid": 698796627729908,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "points",
+			"type": "number",
+			"desc": "",
+			"sid": 761489377552989
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": []
+}
