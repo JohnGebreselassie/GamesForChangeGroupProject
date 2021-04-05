@@ -69,15 +69,10 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 485967480873308,
+					"sid": 833734187559830,
 					"parameters": {
-						"layout": "LevelSelect"
+						"layout": "Instructions"
 					}
-				},
-				{
-					"id": "stop-all",
-					"objectClass": "Audio",
-					"sid": 388894814481014
 				}
 			],
 			"sid": 972673133801008

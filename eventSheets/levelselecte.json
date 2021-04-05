@@ -31,16 +31,7 @@
 					"sid": 259219745732849
 				}
 			],
-			"actions": [
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 919549143589351,
-					"parameters": {
-						"layout": "Level2"
-					}
-				}
-			],
+			"actions": [],
 			"sid": 611405959059098
 		},
 		{
@@ -52,16 +43,7 @@
 					"sid": 184869755622826
 				}
 			],
-			"actions": [
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 972672176166937,
-					"parameters": {
-						"layout": "Level3"
-					}
-				}
-			],
+			"actions": [],
 			"sid": 402544641289612
 		},
 		{
@@ -73,16 +55,7 @@
 					"sid": 677962107497416
 				}
 			],
-			"actions": [
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 462876024965413,
-					"parameters": {
-						"layout": "Level4"
-					}
-				}
-			],
+			"actions": [],
 			"sid": 713953725809636
 		},
 		{
@@ -94,16 +67,7 @@
 					"sid": 830937532891152
 				}
 			],
-			"actions": [
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 383870608232184,
-					"parameters": {
-						"layout": "Level5"
-					}
-				}
-			],
+			"actions": [],
 			"sid": 839662126558940
 		},
 		{
@@ -115,16 +79,7 @@
 					"sid": 270299967682100
 				}
 			],
-			"actions": [
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 927426413439814,
-					"parameters": {
-						"layout": "Level6"
-					}
-				}
-			],
+			"actions": [],
 			"sid": 894849064543361
 		},
 		{
@@ -136,16 +91,7 @@
 					"sid": 388603907711631
 				}
 			],
-			"actions": [
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 444495418217818,
-					"parameters": {
-						"layout": "Level7"
-					}
-				}
-			],
+			"actions": [],
 			"sid": 457985885889221
 		},
 		{

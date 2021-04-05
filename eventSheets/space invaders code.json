@@ -145,11 +145,6 @@
 					"parameters": {
 						"layout": "Level1"
 					}
-				},
-				{
-					"id": "destroy",
-					"objectClass": "MinigameButton1",
-					"sid": 650684506386097
 				}
 			],
 			"sid": 564748758087819

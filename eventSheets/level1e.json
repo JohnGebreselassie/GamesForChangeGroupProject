@@ -15,111 +15,6 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-clicked",
-					"objectClass": "MinigameButton1",
-					"sid": 853103998706382
-				}
-			],
-			"actions": [
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 420674873149518,
-					"parameters": {
-						"layout": "SpaceInvaders"
-					}
-				}
-			],
-			"sid": 551245712048820
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-clicked",
-					"objectClass": "MinigameButton2",
-					"sid": 322710544116414
-				}
-			],
-			"actions": [
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 432805758782318,
-					"parameters": {
-						"layout": "Minigame2"
-					}
-				}
-			],
-			"sid": 476048914984962
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-clicked",
-					"objectClass": "MinigameButton3",
-					"sid": 792057907417878
-				}
-			],
-			"actions": [
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 836001104223898,
-					"parameters": {
-						"layout": "Minigame3"
-					}
-				}
-			],
-			"sid": 677958398959994
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-clicked",
-					"objectClass": "MinigameButton4",
-					"sid": 139781608590973
-				}
-			],
-			"actions": [
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 450142759515875,
-					"parameters": {
-						"layout": "Minigame4"
-					}
-				}
-			],
-			"sid": 721150193644557
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-clicked",
-					"objectClass": "MinigameButton5",
-					"sid": 146661042523576
-				}
-			],
-			"actions": [
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 760188209363358,
-					"parameters": {
-						"layout": "Minigame5"
-					}
-				}
-			],
-			"sid": 529933823728905
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
 					"sid": 817471311524258,
@@ -162,14 +57,6 @@
 				}
 			],
 			"actions": [
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 705536623687396,
-					"parameters": {
-						"layout": "LevelSelect"
-					}
-				},
 				{
 					"id": "destroy",
 					"objectClass": "Lvl1ProgressBar",

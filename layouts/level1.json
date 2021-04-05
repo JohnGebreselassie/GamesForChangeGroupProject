@@ -18,10 +18,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 429,
-						"y": 241,
-						"width": 854,
-						"height": 482,
+						"x": 426.5,
+						"y": 198,
+						"width": 853,
+						"height": 396,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -77,156 +77,6 @@
 					}
 				},
 				{
-					"type": "MinigameButton1",
-					"properties": {
-						"type": "button",
-						"text": "*insert task related to setting*",
-						"tooltip": "",
-						"initially-visible": true,
-						"enabled": true,
-						"auto-font-size": true,
-						"checked": false,
-						"id": ""
-					},
-					"uid": 11,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 86,
-						"y": 63,
-						"width": 138,
-						"height": 44,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						]
-					}
-				},
-				{
-					"type": "MinigameButton2",
-					"properties": {
-						"type": "button",
-						"text": "*insert task related to setting*",
-						"tooltip": "",
-						"initially-visible": true,
-						"enabled": true,
-						"auto-font-size": true,
-						"checked": false,
-						"id": ""
-					},
-					"uid": 29,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 408,
-						"y": 67,
-						"width": 138,
-						"height": 44,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						]
-					}
-				},
-				{
-					"type": "MinigameButton3",
-					"properties": {
-						"type": "button",
-						"text": "*insert task related to setting*",
-						"tooltip": "",
-						"initially-visible": true,
-						"enabled": true,
-						"auto-font-size": true,
-						"checked": false,
-						"id": ""
-					},
-					"uid": 30,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 138,
-						"y": 231,
-						"width": 138,
-						"height": 44,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						]
-					}
-				},
-				{
-					"type": "MinigameButton4",
-					"properties": {
-						"type": "button",
-						"text": "*insert task related to setting*",
-						"tooltip": "",
-						"initially-visible": true,
-						"enabled": true,
-						"auto-font-size": true,
-						"checked": false,
-						"id": ""
-					},
-					"uid": 31,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 627,
-						"y": 231,
-						"width": 138,
-						"height": 44,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						]
-					}
-				},
-				{
-					"type": "MinigameButton5",
-					"properties": {
-						"type": "button",
-						"text": "*insert task related to setting*",
-						"tooltip": "",
-						"initially-visible": true,
-						"enabled": true,
-						"auto-font-size": true,
-						"checked": false,
-						"id": ""
-					},
-					"uid": 32,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 582,
-						"y": 382,
-						"width": 138,
-						"height": 44,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						]
-					}
-				},
-				{
 					"type": "Lvl1ProgressBar",
 					"properties": {
 						"value": 0,
@@ -239,10 +89,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 327,
-						"y": 21,
-						"width": 200,
-						"height": 25,
+						"x": 304,
+						"y": 5,
+						"width": 267,
+						"height": 27,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -266,8 +116,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 398.5,
-						"y": 357,
+						"x": 394,
+						"y": 304,
 						"width": 269,
 						"height": 86,
 						"originX": 0.5,
@@ -295,10 +145,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 613,
-						"y": 142.5,
-						"width": 140.484375,
-						"height": 148.078125,
+						"x": 601.615,
+						"y": 121.22395833333333,
+						"width": 118.484375,
+						"height": 109.078125,
 						"originX": 0.495,
 						"originY": 0.4947916666666667,
 						"color": [
@@ -324,10 +174,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 613,
-						"y": 142.5,
-						"width": 140.484375,
-						"height": 148.078125,
+						"x": 601.615,
+						"y": 121.223958,
+						"width": 118.484375,
+						"height": 109.078125,
 						"originX": 0.5051440329218106,
 						"originY": 0.5051440329218106,
 						"color": [
@@ -353,8 +203,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 320,
-						"y": 441,
+						"x": 326,
+						"y": 351,
 						"width": 62.99999999999999,
 						"height": 97,
 						"originX": 0.5,
@@ -366,6 +216,35 @@
 							1
 						],
 						"angle": 1.5707963267948966,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "computerSprite",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 64,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 797,
+						"y": 272,
+						"width": 77,
+						"height": 71,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
 						"zElevation": 0
 					}
 				}

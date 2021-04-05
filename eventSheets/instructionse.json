@@ -1,0 +1,53 @@
+{
+	"name": "InstructionsE",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 470027941769040
+				}
+			],
+			"actions": [
+				{
+					"id": "typewriter-text",
+					"objectClass": "Instructions2",
+					"sid": 106449796896443,
+					"parameters": {
+						"text": "\"Your job is to act as a guardian angel to the character and to help him improve his mental health during this pandemic.\"",
+						"duration": "5"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 361069672301526,
+					"parameters": {
+						"seconds": "10"
+					}
+				},
+				{
+					"id": "typewriter-text",
+					"objectClass": "Instructions1",
+					"sid": 595190730348636,
+					"parameters": {
+						"text": "\"Click on different objects around the room to increase your happiness meter at the top.\"",
+						"duration": "5"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 569576145427831,
+					"parameters": {
+						"seconds": "10"
+					}
+				}
+			],
+			"sid": 829192994382548
+		}
+	],
+	"sid": 389633265051151
+}
