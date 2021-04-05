@@ -46,17 +46,6 @@
 					"parameters": {
 						"visibility": "visible"
 					}
-				},
-				{
-					"id": "play",
-					"objectClass": "Audio",
-					"sid": 102218000764354,
-					"parameters": {
-						"audio-file": "4924073608478720",
-						"loop": "looping",
-						"volume": "1",
-						"tag-optional": "\"\""
-					}
 				}
 			],
 			"sid": 755640316294685
