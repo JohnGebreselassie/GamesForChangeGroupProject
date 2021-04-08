@@ -2,7 +2,7 @@
 	"name": "Goal1",
 	"plugin-id": "Text",
 	"sid": 279436588231314,
-	"isGlobal": true,
+	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
 	"effectTypes": []

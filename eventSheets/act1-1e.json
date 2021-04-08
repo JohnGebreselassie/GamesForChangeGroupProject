@@ -38,6 +38,21 @@
 					"parameters": {
 						"value": "Lvl1Score"
 					}
+				},
+				{
+					"id": "move-to-top",
+					"objectClass": "Amogus",
+					"sid": 530589253782443
+				},
+				{
+					"id": "move-to-top",
+					"objectClass": "computerSprite",
+					"sid": 328182633333923
+				},
+				{
+					"id": "move-to-top",
+					"objectClass": "InvisibleBedSprite",
+					"sid": 414749881880138
 				}
 			],
 			"sid": 989945714211652

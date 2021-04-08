@@ -53,6 +53,11 @@
 					"id": "move-to-top",
 					"objectClass": "Tshirt",
 					"sid": 764632487132887
+				},
+				{
+					"id": "move-to-top",
+					"objectClass": "computerSprite",
+					"sid": 174737514237394
 				}
 			],
 			"sid": 621623138314339

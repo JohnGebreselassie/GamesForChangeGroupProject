@@ -64,24 +64,6 @@
 					"id": "on-any-key-pressed",
 					"objectClass": "Keyboard",
 					"sid": 469044257204442
-				},
-				{
-					"id": "is-running-typewriter-text",
-					"objectClass": "clickAnyKey",
-					"sid": 162612823402631,
-					"isInverted": true
-				},
-				{
-					"id": "is-running-typewriter-text",
-					"objectClass": "Instructions2",
-					"sid": 529660536479065,
-					"isInverted": true
-				},
-				{
-					"id": "is-running-typewriter-text",
-					"objectClass": "Instructions2",
-					"sid": 753642190074354,
-					"isInverted": true
 				}
 			],
 			"actions": [
