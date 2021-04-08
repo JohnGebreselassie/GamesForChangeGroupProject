@@ -147,7 +147,10 @@
 			"pointValue",
 			"computerSprite",
 			"Instructions2",
-			"Instructions1"
+			"Instructions1",
+			"Sprite2",
+			"Sprite3",
+			"clickAnyKey"
 		],
 		"subfolders": []
 	},

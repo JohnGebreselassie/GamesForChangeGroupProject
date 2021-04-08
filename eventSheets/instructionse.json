@@ -23,9 +23,9 @@
 				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 361069672301526,
+					"sid": 519692424216958,
 					"parameters": {
-						"seconds": "10"
+						"seconds": "4"
 					}
 				},
 				{
@@ -40,13 +40,61 @@
 				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 569576145427831,
+					"sid": 237660863776043,
 					"parameters": {
-						"seconds": "10"
+						"seconds": "2"
+					}
+				},
+				{
+					"id": "typewriter-text",
+					"objectClass": "clickAnyKey",
+					"sid": 502472309820513,
+					"parameters": {
+						"text": "\"Click any key to continue\"",
+						"duration": "0"
 					}
 				}
 			],
 			"sid": 829192994382548
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-any-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 469044257204442
+				},
+				{
+					"id": "is-running-typewriter-text",
+					"objectClass": "clickAnyKey",
+					"sid": 162612823402631,
+					"isInverted": true
+				},
+				{
+					"id": "is-running-typewriter-text",
+					"objectClass": "Instructions2",
+					"sid": 529660536479065,
+					"isInverted": true
+				},
+				{
+					"id": "is-running-typewriter-text",
+					"objectClass": "Instructions2",
+					"sid": 753642190074354,
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 882354546098865,
+					"parameters": {
+						"layout": "Level1"
+					}
+				}
+			],
+			"sid": 445228801736229
 		}
 	],
 	"sid": 389633265051151
