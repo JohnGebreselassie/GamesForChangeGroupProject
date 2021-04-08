@@ -150,7 +150,13 @@
 			"Instructions1",
 			"Sprite2",
 			"Sprite3",
-			"clickAnyKey"
+			"clickAnyKey",
+			"Sprite4",
+			"Sprite5",
+			"Goal1",
+			"Goal2",
+			"Goal3",
+			"Goal4"
 		],
 		"subfolders": []
 	},
@@ -178,7 +184,6 @@
 	},
 	"eventSheets": {
 		"items": [
-			"LevelSelectE",
 			"StartScreenE",
 			"Level1E",
 			"Act1-1E",

@@ -38,6 +38,11 @@
 					"id": "destroy",
 					"objectClass": "Tshirt",
 					"sid": 294809312777858
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Goal1",
+					"sid": 587629101886549
 				}
 			],
 			"sid": 189386714248495
@@ -56,13 +61,7 @@
 					}
 				}
 			],
-			"actions": [
-				{
-					"id": "destroy",
-					"objectClass": "Lvl1ProgressBar",
-					"sid": 868149855612601
-				}
-			],
+			"actions": [],
 			"sid": 442784380271070
 		},
 		{
@@ -92,6 +91,11 @@
 					"id": "destroy",
 					"objectClass": "InvisibleBedSprite",
 					"sid": 536969755910603
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Goal2",
+					"sid": 809337052574527
 				}
 			],
 			"sid": 934635244500233
@@ -118,6 +122,11 @@
 					"parameters": {
 						"layout": "Act1-3"
 					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Goal3",
+					"sid": 268408838011478
 				}
 			],
 			"sid": 214439871764962

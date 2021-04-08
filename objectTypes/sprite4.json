@@ -1,8 +1,8 @@
 {
-	"name": "InvisibleBedSprite",
+	"name": "Sprite4",
 	"plugin-id": "Sprite",
-	"sid": 281038273111251,
-	"isGlobal": true,
+	"sid": 269974623666107,
+	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
 	"effectTypes": [],
@@ -11,19 +11,39 @@
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
+						"width": 200,
+						"height": 80,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7273006,
+						"imageSpriteId": 6133033,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.995,
+								0,
+								0.995,
+								0.5,
+								0.995,
+								0.9875,
+								0.5,
+								0.9875,
+								0,
+								0.9875,
+								0,
+								0.5
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 650234806021161,
+				"sid": 557241137706061,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
