@@ -104,17 +104,6 @@
 							"properties": {
 								"bound-by": "edge"
 							}
-						},
-						"MoveTo": {
-							"properties": {
-								"max-speed": 200,
-								"acceleration": 600,
-								"deceleration": 600,
-								"rotate-speed": 0,
-								"set-angle": true,
-								"stop-on-solids": false,
-								"enabled": true
-							}
 						}
 					},
 					"world": {
@@ -149,17 +138,6 @@
 						"BoundToLayout": {
 							"properties": {
 								"bound-by": "edge"
-							}
-						},
-						"MoveTo": {
-							"properties": {
-								"max-speed": 200,
-								"acceleration": 600,
-								"deceleration": 600,
-								"rotate-speed": 0,
-								"set-angle": true,
-								"stop-on-solids": false,
-								"enabled": true
 							}
 						}
 					},
@@ -196,17 +174,6 @@
 							"properties": {
 								"bound-by": "edge"
 							}
-						},
-						"MoveTo": {
-							"properties": {
-								"max-speed": 200,
-								"acceleration": 600,
-								"deceleration": 600,
-								"rotate-speed": 0,
-								"set-angle": true,
-								"stop-on-solids": false,
-								"enabled": true
-							}
 						}
 					},
 					"world": {
@@ -241,17 +208,6 @@
 						"BoundToLayout": {
 							"properties": {
 								"bound-by": "edge"
-							}
-						},
-						"MoveTo": {
-							"properties": {
-								"max-speed": 200,
-								"acceleration": 600,
-								"deceleration": 600,
-								"rotate-speed": 0,
-								"set-angle": true,
-								"stop-on-solids": false,
-								"enabled": true
 							}
 						}
 					},
@@ -288,17 +244,6 @@
 							"properties": {
 								"bound-by": "edge"
 							}
-						},
-						"MoveTo": {
-							"properties": {
-								"max-speed": 200,
-								"acceleration": 600,
-								"deceleration": 600,
-								"rotate-speed": 0,
-								"set-angle": true,
-								"stop-on-solids": false,
-								"enabled": true
-							}
 						}
 					},
 					"world": {
@@ -333,17 +278,6 @@
 						"BoundToLayout": {
 							"properties": {
 								"bound-by": "edge"
-							}
-						},
-						"MoveTo": {
-							"properties": {
-								"max-speed": 200,
-								"acceleration": 600,
-								"deceleration": 600,
-								"rotate-speed": 0,
-								"set-angle": true,
-								"stop-on-solids": false,
-								"enabled": true
 							}
 						}
 					},
@@ -380,17 +314,6 @@
 							"properties": {
 								"bound-by": "edge"
 							}
-						},
-						"MoveTo": {
-							"properties": {
-								"max-speed": 200,
-								"acceleration": 600,
-								"deceleration": 600,
-								"rotate-speed": 0,
-								"set-angle": true,
-								"stop-on-solids": false,
-								"enabled": true
-							}
 						}
 					},
 					"world": {
@@ -425,17 +348,6 @@
 						"BoundToLayout": {
 							"properties": {
 								"bound-by": "edge"
-							}
-						},
-						"MoveTo": {
-							"properties": {
-								"max-speed": 200,
-								"acceleration": 600,
-								"deceleration": 600,
-								"rotate-speed": 0,
-								"set-angle": true,
-								"stop-on-solids": false,
-								"enabled": true
 							}
 						}
 					},
@@ -472,17 +384,6 @@
 							"properties": {
 								"bound-by": "edge"
 							}
-						},
-						"MoveTo": {
-							"properties": {
-								"max-speed": 200,
-								"acceleration": 600,
-								"deceleration": 600,
-								"rotate-speed": 0,
-								"set-angle": true,
-								"stop-on-solids": false,
-								"enabled": true
-							}
 						}
 					},
 					"world": {
@@ -517,17 +418,6 @@
 						"BoundToLayout": {
 							"properties": {
 								"bound-by": "edge"
-							}
-						},
-						"MoveTo": {
-							"properties": {
-								"max-speed": 200,
-								"acceleration": 600,
-								"deceleration": 600,
-								"rotate-speed": 0,
-								"set-angle": true,
-								"stop-on-solids": false,
-								"enabled": true
 							}
 						}
 					},

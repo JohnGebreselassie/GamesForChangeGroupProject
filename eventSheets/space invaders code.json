@@ -21,11 +21,12 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-key-pressed",
-					"objectClass": "Keyboard",
-					"sid": 204689427467410,
+					"id": "on-click",
+					"objectClass": "Mouse",
+					"sid": 480680059389493,
 					"parameters": {
-						"key": 32
+						"mouse-button": "left",
+						"click-type": "clicked"
 					}
 				}
 			],
