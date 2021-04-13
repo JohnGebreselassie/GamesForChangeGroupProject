@@ -109,6 +109,30 @@
 			"author": "Scirra",
 			"version": "r241",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Platform",
+			"name": "Platform",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Solid",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "scrollto",
+			"name": "Scroll To",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
 		}
 	],
 	"uniqueId": "1wfs2x4ebcn",
@@ -166,8 +190,9 @@
 			"Goal3",
 			"Goal4",
 			"Sprite6",
+			"TiledBackground2",
 			"Sprite7",
-			"alien2"
+			"Sprite8"
 		],
 		"subfolders": []
 	},
@@ -189,8 +214,7 @@
 			"Act1-1",
 			"Act1-2",
 			"Act1-3",
-			"Instructions",
-			"Computer"
+			"Instructions"
 		],
 		"subfolders": []
 	},
@@ -202,8 +226,7 @@
 			"Act1-2E",
 			"Act1-3E",
 			"Space Invaders Code",
-			"InstructionsE",
-			"ComputerE"
+			"InstructionsE"
 		],
 		"subfolders": []
 	},

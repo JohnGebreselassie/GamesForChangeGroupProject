@@ -1,14 +1,14 @@
 {
-	"name": "Sprite7",
+	"name": "Sprite8",
 	"plugin-id": "Sprite",
-	"sid": 413569106390971,
+	"sid": 692719217255144,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
-			"behaviorId": "solid",
-			"name": "Solid",
-			"sid": 782652049229081
+			"behaviorId": "scrollto",
+			"name": "ScrollTo",
+			"sid": 507436986932375
 		}
 	],
 	"effectTypes": [],
@@ -24,12 +24,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8080530,
+						"imageSpriteId": 9080963,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 944000283420355,
+				"sid": 210563805933146,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

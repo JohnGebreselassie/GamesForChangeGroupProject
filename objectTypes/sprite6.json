@@ -1,49 +1,40 @@
 {
 	"name": "Sprite6",
 	"plugin-id": "Sprite",
-	"sid": 181143540321908,
+	"sid": 911900242376914,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Platform",
+			"name": "Platform",
+			"sid": 445893854925195
+		},
+		{
+			"behaviorId": "bound",
+			"name": "BoundToLayout",
+			"sid": 395280623528264
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 1000,
-						"height": 800,
+						"width": 250,
+						"height": 250,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 1535140,
-						"collisionPoly": {
-							"points": [
-								0,
-								0,
-								0.5,
-								0,
-								0.999,
-								0,
-								0.999,
-								0.5,
-								0.999,
-								0.99875,
-								0.5,
-								0.99875,
-								0,
-								0.99875,
-								0,
-								0.5
-							]
-						},
+						"imageSpriteId": 7376087,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 153663736930513,
+				"sid": 634572624388925,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
