@@ -156,7 +156,10 @@
 			"Goal1",
 			"Goal2",
 			"Goal3",
-			"Goal4"
+			"Goal4",
+			"Sprite6",
+			"Sprite7",
+			"alien2"
 		],
 		"subfolders": []
 	},
@@ -178,7 +181,8 @@
 			"Act1-1",
 			"Act1-2",
 			"Act1-3",
-			"Instructions"
+			"Instructions",
+			"Computer"
 		],
 		"subfolders": []
 	},
@@ -190,7 +194,8 @@
 			"Act1-2E",
 			"Act1-3E",
 			"Space Invaders Code",
-			"InstructionsE"
+			"InstructionsE",
+			"ComputerE"
 		],
 		"subfolders": []
 	},

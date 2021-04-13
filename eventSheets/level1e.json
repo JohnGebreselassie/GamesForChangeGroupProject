@@ -130,6 +130,23 @@
 				}
 			],
 			"sid": 214439871764962
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 174721985702415,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "computerSprite"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 541513938287167
 		}
 	],
 	"sid": 345356869808954
