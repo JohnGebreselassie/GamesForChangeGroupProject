@@ -3,6 +3,7 @@
 	"plugin-id": "Sprite",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	"sid": 413569106390971,
 	"isGlobal": false,
 	"instanceVariables": [],
@@ -24,6 +25,12 @@
 >>>>>>> parent of 2d4e6ba (fixed coding for some things)
 =======
 >>>>>>> parent of 2d4e6ba (fixed coding for some things)
+=======
+	"sid": 485698769940640,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+>>>>>>> parent of 0fef56e (Base code for side scroller)
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -39,6 +46,7 @@
 						"exportQuality": 0.8,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 						"imageSpriteId": 8080530,
 =======
 						"imageSpriteId": 5192059,
@@ -46,10 +54,14 @@
 =======
 						"imageSpriteId": 5192059,
 >>>>>>> parent of 2d4e6ba (fixed coding for some things)
+=======
+						"imageSpriteId": 5192059,
+>>>>>>> parent of 0fef56e (Base code for side scroller)
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 				"sid": 944000283420355,
@@ -59,6 +71,9 @@
 =======
 				"sid": 817195959281594,
 >>>>>>> parent of 2d4e6ba (fixed coding for some things)
+=======
+				"sid": 817195959281594,
+>>>>>>> parent of 0fef56e (Base code for side scroller)
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

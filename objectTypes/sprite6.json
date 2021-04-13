@@ -3,6 +3,7 @@
 	"plugin-id": "Sprite",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	"sid": 911900242376914,
 	"isGlobal": false,
 	"instanceVariables": [],
@@ -29,12 +30,19 @@
 >>>>>>> parent of 2d4e6ba (fixed coding for some things)
 =======
 >>>>>>> parent of 2d4e6ba (fixed coding for some things)
+=======
+	"sid": 181143540321908,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+>>>>>>> parent of 0fef56e (Base code for side scroller)
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 						"width": 250,
@@ -47,6 +55,10 @@
 						"width": 1000,
 						"height": 800,
 >>>>>>> parent of 2d4e6ba (fixed coding for some things)
+=======
+						"width": 1000,
+						"height": 800,
+>>>>>>> parent of 0fef56e (Base code for side scroller)
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
@@ -54,10 +66,13 @@
 						"exportQuality": 0.8,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 						"imageSpriteId": 7376087,
 =======
 =======
 >>>>>>> parent of 2d4e6ba (fixed coding for some things)
+=======
+>>>>>>> parent of 0fef56e (Base code for side scroller)
 						"imageSpriteId": 1535140,
 						"collisionPoly": {
 							"points": [
@@ -80,13 +95,17 @@
 							]
 						},
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of 2d4e6ba (fixed coding for some things)
 =======
 >>>>>>> parent of 2d4e6ba (fixed coding for some things)
+=======
+>>>>>>> parent of 0fef56e (Base code for side scroller)
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 				"sid": 634572624388925,
@@ -96,6 +115,9 @@
 =======
 				"sid": 153663736930513,
 >>>>>>> parent of 2d4e6ba (fixed coding for some things)
+=======
+				"sid": 153663736930513,
+>>>>>>> parent of 0fef56e (Base code for side scroller)
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

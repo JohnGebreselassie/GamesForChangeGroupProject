@@ -111,7 +111,10 @@
 			"author": "Scirra",
 			"version": "r241",
 			"bundled": false
+<<<<<<< HEAD
 >>>>>>> parent of 2d4e6ba (fixed coding for some things)
+=======
+>>>>>>> parent of 0fef56e (Base code for side scroller)
 		}
 	],
 	"uniqueId": "1wfs2x4ebcn",
