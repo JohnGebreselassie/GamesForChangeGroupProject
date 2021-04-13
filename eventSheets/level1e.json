@@ -145,36 +145,7 @@
 					}
 				}
 			],
-			"actions": [
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 909934661407138,
-					"parameters": {
-						"layout": "Computer"
-					}
-				},
-				{
-					"id": "move-to-bottom",
-					"objectClass": "Amogus2",
-					"sid": 428996169688450
-				},
-				{
-					"id": "move-to-bottom",
-					"objectClass": "Amogus",
-					"sid": 701177785826973
-				},
-				{
-					"id": "move-to-bottom",
-					"objectClass": "Tshirt",
-					"sid": 723346886995661
-				},
-				{
-					"id": "move-to-bottom",
-					"objectClass": "computerSprite",
-					"sid": 341123722277826
-				}
-			],
+			"actions": [],
 			"sid": 541513938287167
 		}
 	],

@@ -4,7 +4,18 @@
 	"sid": 666833810963223,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "bound",
+			"name": "BoundToLayout",
+			"sid": 847950339062833
+		},
+		{
+			"behaviorId": "MoveTo",
+			"name": "MoveTo",
+			"sid": 344494784250300
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [

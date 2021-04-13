@@ -87,66 +87,6 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "alien2",
-					"sid": 507084013518677,
-					"parameters": {
-						"object": "bullet"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "destroy",
-					"objectClass": "alien2",
-					"sid": 503084256584113
-				},
-				{
-					"id": "add-to-eventvar",
-					"objectClass": "System",
-					"sid": 811625141856234,
-					"parameters": {
-						"variable": "pointsSpace",
-						"value": "5"
-					}
-				}
-			],
-			"sid": 644860392425613
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "alien3",
-					"sid": 453004580954628,
-					"parameters": {
-						"object": "bullet"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "destroy",
-					"objectClass": "alien3",
-					"sid": 393535442765396
-				},
-				{
-					"id": "add-to-eventvar",
-					"objectClass": "System",
-					"sid": 879347807752235,
-					"parameters": {
-						"variable": "pointsSpace",
-						"value": "5"
-					}
-				}
-			],
-			"sid": 218378464602221
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
 					"id": "every-tick",
 					"objectClass": "System",
 					"sid": 335665269155238
@@ -200,9 +140,9 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 221623287392816,
+					"sid": 293135982690524,
 					"parameters": {
-						"layout": "Computer"
+						"layout": "Level1"
 					}
 				}
 			],

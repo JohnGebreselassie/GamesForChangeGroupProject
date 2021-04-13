@@ -96,16 +96,16 @@
 		},
 		{
 			"type": "behavior",
-			"id": "Bullet",
-			"name": "Bullet",
+			"id": "MoveTo",
+			"name": "Move To",
 			"author": "Scirra",
 			"version": "r241",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
-			"id": "MoveTo",
-			"name": "Move To",
+			"id": "Bullet",
+			"name": "Bullet",
 			"author": "Scirra",
 			"version": "r241",
 			"bundled": false
@@ -165,13 +165,9 @@
 			"Goal2",
 			"Goal3",
 			"Goal4",
-			"alienIcon",
-			"spaceInvadersTitle",
-			"alien2",
-			"alien3",
-			"alien4",
-			"alien5",
-			"returnButton"
+			"Sprite6",
+			"Sprite7",
+			"alien2"
 		],
 		"subfolders": []
 	},

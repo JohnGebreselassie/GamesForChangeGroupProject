@@ -6,28 +6,24 @@
 			"overriden": 0,
 			"instances": [
 				{
-					"type": "TiledBackground",
+					"type": "Sprite6",
 					"properties": {
 						"initially-visible": true,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
 					},
 					"uid": 19,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 0,
-						"y": 0,
+						"x": 427,
+						"y": 240,
 						"width": 854,
 						"height": 480,
-						"originX": 0,
-						"originY": 0,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -39,7 +35,7 @@
 					}
 				},
 				{
-					"type": "alienIcon",
+					"type": "alien2",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -57,96 +53,12 @@
 						}
 					},
 					"world": {
-						"x": 145.5,
-						"y": 186.77142857142857,
-						"width": 198.00000000000003,
-						"height": 158,
+						"x": 87,
+						"y": 58.114285714285714,
+						"width": 84,
+						"height": 75,
 						"originX": 0.5,
 						"originY": 0.4928571428571429,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "spaceInvadersTitle",
-					"properties": {
-						"text": "Space Attackers",
-						"enable-bbcode": true,
-						"font": "PixelOperatorSC",
-						"size": 28,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left"
-					},
-					"uid": 21,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 45,
-						"y": 265,
-						"width": 192,
-						"height": 113,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "returnButton",
-					"properties": {
-						"text": "Click here to return to the main page",
-						"enable-bbcode": true,
-						"font": "PixelOperator8",
-						"size": 12,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left"
-					},
-					"uid": 31,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 11,
-						"y": 413,
-						"width": 229,
-						"height": 61,
-						"originX": 0,
-						"originY": 0,
 						"color": [
 							1,
 							1,
