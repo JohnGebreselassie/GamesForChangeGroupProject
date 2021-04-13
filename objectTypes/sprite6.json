@@ -2,6 +2,7 @@
 	"name": "Sprite6",
 	"plugin-id": "Sprite",
 <<<<<<< HEAD
+<<<<<<< HEAD
 	"sid": 911900242376914,
 	"isGlobal": false,
 	"instanceVariables": [],
@@ -18,10 +19,15 @@
 		}
 	],
 =======
+=======
+>>>>>>> parent of 2d4e6ba (fixed coding for some things)
 	"sid": 181143540321908,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
+<<<<<<< HEAD
+>>>>>>> parent of 2d4e6ba (fixed coding for some things)
+=======
 >>>>>>> parent of 2d4e6ba (fixed coding for some things)
 	"effectTypes": [],
 	"animations": {
@@ -30,8 +36,13 @@
 				"frames": [
 					{
 <<<<<<< HEAD
+<<<<<<< HEAD
 						"width": 250,
 						"height": 250,
+=======
+						"width": 1000,
+						"height": 800,
+>>>>>>> parent of 2d4e6ba (fixed coding for some things)
 =======
 						"width": 1000,
 						"height": 800,
@@ -42,8 +53,11 @@
 						"exportFormat": "png",
 						"exportQuality": 0.8,
 <<<<<<< HEAD
+<<<<<<< HEAD
 						"imageSpriteId": 7376087,
 =======
+=======
+>>>>>>> parent of 2d4e6ba (fixed coding for some things)
 						"imageSpriteId": 1535140,
 						"collisionPoly": {
 							"points": [
@@ -65,13 +79,20 @@
 								0.5
 							]
 						},
+<<<<<<< HEAD
+>>>>>>> parent of 2d4e6ba (fixed coding for some things)
+=======
 >>>>>>> parent of 2d4e6ba (fixed coding for some things)
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
 <<<<<<< HEAD
+<<<<<<< HEAD
 				"sid": 634572624388925,
+=======
+				"sid": 153663736930513,
+>>>>>>> parent of 2d4e6ba (fixed coding for some things)
 =======
 				"sid": 153663736930513,
 >>>>>>> parent of 2d4e6ba (fixed coding for some things)

@@ -2,6 +2,7 @@
 	"name": "Sprite7",
 	"plugin-id": "Sprite",
 <<<<<<< HEAD
+<<<<<<< HEAD
 	"sid": 413569106390971,
 	"isGlobal": false,
 	"instanceVariables": [],
@@ -13,10 +14,15 @@
 		}
 	],
 =======
+=======
+>>>>>>> parent of 2d4e6ba (fixed coding for some things)
 	"sid": 485698769940640,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
+<<<<<<< HEAD
+>>>>>>> parent of 2d4e6ba (fixed coding for some things)
+=======
 >>>>>>> parent of 2d4e6ba (fixed coding for some things)
 	"effectTypes": [],
 	"animations": {
@@ -32,7 +38,11 @@
 						"exportFormat": "png",
 						"exportQuality": 0.8,
 <<<<<<< HEAD
+<<<<<<< HEAD
 						"imageSpriteId": 8080530,
+=======
+						"imageSpriteId": 5192059,
+>>>>>>> parent of 2d4e6ba (fixed coding for some things)
 =======
 						"imageSpriteId": 5192059,
 >>>>>>> parent of 2d4e6ba (fixed coding for some things)
@@ -41,7 +51,11 @@
 					}
 				],
 <<<<<<< HEAD
+<<<<<<< HEAD
 				"sid": 944000283420355,
+=======
+				"sid": 817195959281594,
+>>>>>>> parent of 2d4e6ba (fixed coding for some things)
 =======
 				"sid": 817195959281594,
 >>>>>>> parent of 2d4e6ba (fixed coding for some things)

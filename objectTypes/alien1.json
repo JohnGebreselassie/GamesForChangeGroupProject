@@ -9,6 +9,14 @@
 			"behaviorId": "bound",
 			"name": "BoundToLayout",
 			"sid": 847950339062833
+<<<<<<< HEAD
+=======
+		},
+		{
+			"behaviorId": "MoveTo",
+			"name": "MoveTo",
+			"sid": 344494784250300
+>>>>>>> parent of 2d4e6ba (fixed coding for some things)
 		}
 	],
 	"effectTypes": [],

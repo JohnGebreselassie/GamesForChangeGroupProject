@@ -104,6 +104,20 @@
 							"properties": {
 								"bound-by": "edge"
 							}
+<<<<<<< HEAD
+=======
+						},
+						"MoveTo": {
+							"properties": {
+								"max-speed": 200,
+								"acceleration": 600,
+								"deceleration": 600,
+								"rotate-speed": 0,
+								"set-angle": true,
+								"stop-on-solids": false,
+								"enabled": true
+							}
+>>>>>>> parent of 2d4e6ba (fixed coding for some things)
 						}
 					},
 					"world": {
@@ -138,6 +152,20 @@
 						"BoundToLayout": {
 							"properties": {
 								"bound-by": "edge"
+<<<<<<< HEAD
+=======
+							}
+						},
+						"MoveTo": {
+							"properties": {
+								"max-speed": 200,
+								"acceleration": 600,
+								"deceleration": 600,
+								"rotate-speed": 0,
+								"set-angle": true,
+								"stop-on-solids": false,
+								"enabled": true
+>>>>>>> parent of 2d4e6ba (fixed coding for some things)
 							}
 						}
 					},
@@ -174,6 +202,20 @@
 							"properties": {
 								"bound-by": "edge"
 							}
+<<<<<<< HEAD
+=======
+						},
+						"MoveTo": {
+							"properties": {
+								"max-speed": 200,
+								"acceleration": 600,
+								"deceleration": 600,
+								"rotate-speed": 0,
+								"set-angle": true,
+								"stop-on-solids": false,
+								"enabled": true
+							}
+>>>>>>> parent of 2d4e6ba (fixed coding for some things)
 						}
 					},
 					"world": {
@@ -209,6 +251,20 @@
 							"properties": {
 								"bound-by": "edge"
 							}
+<<<<<<< HEAD
+=======
+						},
+						"MoveTo": {
+							"properties": {
+								"max-speed": 200,
+								"acceleration": 600,
+								"deceleration": 600,
+								"rotate-speed": 0,
+								"set-angle": true,
+								"stop-on-solids": false,
+								"enabled": true
+							}
+>>>>>>> parent of 2d4e6ba (fixed coding for some things)
 						}
 					},
 					"world": {
@@ -244,6 +300,20 @@
 							"properties": {
 								"bound-by": "edge"
 							}
+<<<<<<< HEAD
+=======
+						},
+						"MoveTo": {
+							"properties": {
+								"max-speed": 200,
+								"acceleration": 600,
+								"deceleration": 600,
+								"rotate-speed": 0,
+								"set-angle": true,
+								"stop-on-solids": false,
+								"enabled": true
+							}
+>>>>>>> parent of 2d4e6ba (fixed coding for some things)
 						}
 					},
 					"world": {
@@ -279,6 +349,20 @@
 							"properties": {
 								"bound-by": "edge"
 							}
+<<<<<<< HEAD
+=======
+						},
+						"MoveTo": {
+							"properties": {
+								"max-speed": 200,
+								"acceleration": 600,
+								"deceleration": 600,
+								"rotate-speed": 0,
+								"set-angle": true,
+								"stop-on-solids": false,
+								"enabled": true
+							}
+>>>>>>> parent of 2d4e6ba (fixed coding for some things)
 						}
 					},
 					"world": {
