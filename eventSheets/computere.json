@@ -1,5 +1,78 @@
 {
 	"name": "ComputerE",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 872040548668295,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "alienIcon"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 279005197875177,
+					"parameters": {
+						"layout": "SpaceInvaders"
+					}
+				}
+			],
+			"sid": 308217085209785
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 323739232078391,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "returnButton"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 602771759757030,
+					"parameters": {
+						"layout": "Level1"
+					}
+				},
+				{
+					"id": "move-to-top",
+					"objectClass": "Amogus2",
+					"sid": 936923764271541
+				},
+				{
+					"id": "move-to-top",
+					"objectClass": "Amogus",
+					"sid": 867184168191812
+				},
+				{
+					"id": "move-to-top",
+					"objectClass": "Tshirt",
+					"sid": 156757152077870
+				},
+				{
+					"id": "move-to-top",
+					"objectClass": "computerSprite",
+					"sid": 984457945273420
+				}
+			],
+			"sid": 304503345605253
+		}
+	],
 	"sid": 905229088581073
 }

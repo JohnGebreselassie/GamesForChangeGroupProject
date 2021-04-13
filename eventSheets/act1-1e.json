@@ -53,6 +53,11 @@
 					"id": "move-to-top",
 					"objectClass": "InvisibleBedSprite",
 					"sid": 414749881880138
+				},
+				{
+					"id": "move-to-top",
+					"objectClass": "InvisibleBedSprite",
+					"sid": 875124512509393
 				}
 			],
 			"sid": 989945714211652

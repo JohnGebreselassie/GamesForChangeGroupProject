@@ -1,10 +1,21 @@
 {
-	"name": "alien1",
+	"name": "alien3",
 	"plugin-id": "Sprite",
-	"sid": 666833810963223,
+	"sid": 241992265279879,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "bound",
+			"name": "BoundToLayout",
+			"sid": 962346137319428
+		},
+		{
+			"behaviorId": "MoveTo",
+			"name": "MoveTo",
+			"sid": 552189605412779
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -18,7 +29,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 4141839,
+						"imageSpriteId": 6726482,
 						"collisionPoly": {
 							"points": [
 								0.1404494382022472,
@@ -43,7 +54,7 @@
 						"duration": 1
 					}
 				],
-				"sid": 685845572216966,
+				"sid": 536878344298044,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
