@@ -96,6 +96,7 @@
 		},
 		{
 			"type": "behavior",
+<<<<<<< HEAD
 			"id": "MoveTo",
 			"name": "Move To",
 			"author": "Scirra",
@@ -106,6 +107,8 @@
 		},
 		{
 			"type": "behavior",
+=======
+>>>>>>> parent of 810aa03 (Merge branch 'master' of https://github.com/JohnGebreselassie/GamesForChangeGroupProject)
 			"id": "Bullet",
 			"name": "Bullet",
 			"author": "Scirra",
