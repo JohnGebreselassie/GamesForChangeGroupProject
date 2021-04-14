@@ -1,7 +1,6 @@
 {
 	"name": "Sprite6",
 	"plugin-id": "Sprite",
-<<<<<<< HEAD
 	"sid": 911900242376914,
 	"isGlobal": false,
 	"instanceVariables": [],
@@ -17,64 +16,25 @@
 			"sid": 395280623528264
 		}
 	],
-=======
-	"sid": 181143540321908,
-	"isGlobal": false,
-	"instanceVariables": [],
-	"behaviorTypes": [],
->>>>>>> parent of 2d4e6ba (fixed coding for some things)
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-<<<<<<< HEAD
 						"width": 250,
 						"height": 250,
-=======
-						"width": 1000,
-						"height": 800,
->>>>>>> parent of 2d4e6ba (fixed coding for some things)
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-<<<<<<< HEAD
 						"imageSpriteId": 7376087,
-=======
-						"imageSpriteId": 1535140,
-						"collisionPoly": {
-							"points": [
-								0,
-								0,
-								0.5,
-								0,
-								0.999,
-								0,
-								0.999,
-								0.5,
-								0.999,
-								0.99875,
-								0.5,
-								0.99875,
-								0,
-								0.99875,
-								0,
-								0.5
-							]
-						},
->>>>>>> parent of 2d4e6ba (fixed coding for some things)
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-<<<<<<< HEAD
 				"sid": 634572624388925,
-=======
-				"sid": 153663736930513,
->>>>>>> parent of 2d4e6ba (fixed coding for some things)
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

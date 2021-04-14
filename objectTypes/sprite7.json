@@ -1,7 +1,6 @@
 {
 	"name": "Sprite7",
 	"plugin-id": "Sprite",
-<<<<<<< HEAD
 	"sid": 413569106390971,
 	"isGlobal": false,
 	"instanceVariables": [],
@@ -12,12 +11,6 @@
 			"sid": 782652049229081
 		}
 	],
-=======
-	"sid": 485698769940640,
-	"isGlobal": false,
-	"instanceVariables": [],
-	"behaviorTypes": [],
->>>>>>> parent of 2d4e6ba (fixed coding for some things)
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -31,20 +24,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-<<<<<<< HEAD
 						"imageSpriteId": 8080530,
-=======
-						"imageSpriteId": 5192059,
->>>>>>> parent of 2d4e6ba (fixed coding for some things)
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-<<<<<<< HEAD
 				"sid": 944000283420355,
-=======
-				"sid": 817195959281594,
->>>>>>> parent of 2d4e6ba (fixed coding for some things)
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
