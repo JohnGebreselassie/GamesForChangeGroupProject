@@ -96,22 +96,11 @@
 		},
 		{
 			"type": "behavior",
-			"id": "MoveTo",
-			"name": "Move To",
-			"author": "Scirra",
-			"version": "r241",
-			"bundled": false
-<<<<<<< HEAD
-=======
-		},
-		{
-			"type": "behavior",
 			"id": "Bullet",
 			"name": "Bullet",
 			"author": "Scirra",
 			"version": "r241",
 			"bundled": false
->>>>>>> parent of 2d4e6ba (fixed coding for some things)
 		}
 	],
 	"uniqueId": "1wfs2x4ebcn",
