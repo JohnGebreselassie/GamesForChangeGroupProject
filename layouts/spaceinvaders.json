@@ -105,7 +105,6 @@
 								"bound-by": "edge"
 							}
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 						},
 						"MoveTo": {
@@ -119,8 +118,6 @@
 								"enabled": true
 							}
 >>>>>>> parent of 2d4e6ba (fixed coding for some things)
-=======
->>>>>>> parent of 810aa03 (Merge branch 'master' of https://github.com/JohnGebreselassie/GamesForChangeGroupProject)
 						}
 					},
 					"world": {
@@ -158,7 +155,6 @@
 <<<<<<< HEAD
 =======
 							}
-<<<<<<< HEAD
 						},
 						"MoveTo": {
 							"properties": {
@@ -171,8 +167,6 @@
 								"enabled": true
 >>>>>>> parent of 2d4e6ba (fixed coding for some things)
 							}
-=======
->>>>>>> parent of 810aa03 (Merge branch 'master' of https://github.com/JohnGebreselassie/GamesForChangeGroupProject)
 						}
 					},
 					"world": {
@@ -209,7 +203,6 @@
 								"bound-by": "edge"
 							}
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 						},
 						"MoveTo": {
@@ -223,8 +216,6 @@
 								"enabled": true
 							}
 >>>>>>> parent of 2d4e6ba (fixed coding for some things)
-=======
->>>>>>> parent of 810aa03 (Merge branch 'master' of https://github.com/JohnGebreselassie/GamesForChangeGroupProject)
 						}
 					},
 					"world": {
@@ -261,7 +252,6 @@
 								"bound-by": "edge"
 							}
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 						},
 						"MoveTo": {
@@ -275,8 +265,6 @@
 								"enabled": true
 							}
 >>>>>>> parent of 2d4e6ba (fixed coding for some things)
-=======
->>>>>>> parent of 810aa03 (Merge branch 'master' of https://github.com/JohnGebreselassie/GamesForChangeGroupProject)
 						}
 					},
 					"world": {
@@ -313,7 +301,6 @@
 								"bound-by": "edge"
 							}
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 						},
 						"MoveTo": {
@@ -327,8 +314,6 @@
 								"enabled": true
 							}
 >>>>>>> parent of 2d4e6ba (fixed coding for some things)
-=======
->>>>>>> parent of 810aa03 (Merge branch 'master' of https://github.com/JohnGebreselassie/GamesForChangeGroupProject)
 						}
 					},
 					"world": {
@@ -365,7 +350,6 @@
 								"bound-by": "edge"
 							}
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 						},
 						"MoveTo": {
@@ -379,8 +363,6 @@
 								"enabled": true
 							}
 >>>>>>> parent of 2d4e6ba (fixed coding for some things)
-=======
->>>>>>> parent of 810aa03 (Merge branch 'master' of https://github.com/JohnGebreselassie/GamesForChangeGroupProject)
 						}
 					},
 					"world": {
