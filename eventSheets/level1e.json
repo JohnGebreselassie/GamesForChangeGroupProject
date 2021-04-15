@@ -176,6 +176,28 @@
 				}
 			],
 			"sid": 541513938287167
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 664948337032533
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position-to-another-object",
+					"objectClass": "Sprite8",
+					"sid": 779896978582299,
+					"parameters": {
+						"object": "Sprite6",
+						"image-point-optional": "1"
+					}
+				}
+			],
+			"sid": 811480310673706
 		}
 	],
 	"sid": 345356869808954
