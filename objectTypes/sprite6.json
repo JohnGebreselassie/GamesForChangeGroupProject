@@ -9,11 +9,6 @@
 			"behaviorId": "Platform",
 			"name": "Platform",
 			"sid": 179836089903020
-		},
-		{
-			"behaviorId": "bound",
-			"name": "BoundToLayout",
-			"sid": 781908657688281
 		}
 	],
 	"effectTypes": [],
@@ -31,13 +26,6 @@
 						"exportQuality": 0.8,
 						"imageSpriteId": 3687420,
 						"useCollisionPoly": true,
-						"imagePoints": [
-							{
-								"name": "Image Point 1",
-								"x": 0.5,
-								"y": -1.204
-							}
-						],
 						"duration": 1
 					}
 				],
