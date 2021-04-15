@@ -207,7 +207,8 @@
 			"Sprite6",
 			"TiledBackground2",
 			"Sprite7",
-			"Sprite8"
+			"Sprite8",
+			"Sprite9"
 		],
 		"subfolders": []
 	},
@@ -243,7 +244,8 @@
 			"Space Invaders Code",
 			"InstructionsE",
 			"ComputerE",
-			"Act1-3E"
+			"Act1-3E",
+			"Minigame2e"
 		],
 		"subfolders": []
 	},

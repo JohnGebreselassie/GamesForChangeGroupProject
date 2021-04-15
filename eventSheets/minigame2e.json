@@ -1,0 +1,28 @@
+{
+	"name": "Minigame2e",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 780207211631342
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position-to-another-object",
+					"objectClass": "Sprite8",
+					"sid": 126789022978471,
+					"parameters": {
+						"object": "Sprite6",
+						"image-point-optional": "1"
+					}
+				}
+			],
+			"sid": 403018472030367
+		}
+	],
+	"sid": 571980595442199
+}
