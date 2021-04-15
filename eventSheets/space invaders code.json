@@ -188,11 +188,11 @@
 				{
 					"id": "compare-eventvar",
 					"objectClass": "System",
-					"sid": 876447828042310,
+					"sid": 704070453889028,
 					"parameters": {
 						"variable": "pointsSpace",
 						"comparison": 0,
-						"value": "50"
+						"value": "45"
 					}
 				}
 			],
@@ -203,6 +203,23 @@
 					"sid": 221623287392816,
 					"parameters": {
 						"layout": "Computer"
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 306412469098661,
+					"parameters": {
+						"variable": "Lvl1Score",
+						"value": "5"
+					}
+				},
+				{
+					"id": "set-progress",
+					"objectClass": "Lvl1ProgressBar",
+					"sid": 631792344901256,
+					"parameters": {
+						"value": "Lvl1Score"
 					}
 				}
 			],

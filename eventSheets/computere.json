@@ -72,6 +72,67 @@
 				}
 			],
 			"sid": 304503345605253
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 406052572232992
+				}
+			],
+			"actions": [
+				{
+					"id": "move-to-bottom",
+					"objectClass": "Amogus2",
+					"sid": 914129662308674
+				},
+				{
+					"id": "move-to-bottom",
+					"objectClass": "Amogus",
+					"sid": 231159008562271
+				},
+				{
+					"id": "move-to-bottom",
+					"objectClass": "Tshirt",
+					"sid": 337968305625294
+				},
+				{
+					"id": "move-to-bottom",
+					"objectClass": "computerSprite",
+					"sid": 745562453884452
+				}
+			],
+			"sid": 283830580791999
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 255445121730377,
+					"parameters": {
+						"variable": "pointsSpace",
+						"comparison": 0,
+						"value": "45"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "alienIcon",
+					"sid": 446576995967267
+				},
+				{
+					"id": "destroy",
+					"objectClass": "spaceInvadersTitle",
+					"sid": 850800137450895
+				}
+			],
+			"sid": 428050806761927
 		}
 	],
 	"sid": 905229088581073

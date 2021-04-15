@@ -240,10 +240,10 @@
 			"Level1E",
 			"Act1-1E",
 			"Act1-2E",
-			"Act1-3E",
 			"Space Invaders Code",
 			"InstructionsE",
-			"ComputerE"
+			"ComputerE",
+			"Act1-3E"
 		],
 		"subfolders": []
 	},
