@@ -1,12 +1,12 @@
 {
-	"name": "Minigame2",
+	"name": "TakingAWalk",
 	"layers": [
 		{
 			"name": "Layer 0",
 			"overriden": 0,
 			"instances": [
 				{
-					"type": "TiledBackground2",
+					"type": "SkyBackground",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -45,7 +45,7 @@
 					}
 				},
 				{
-					"type": "Sprite7",
+					"type": "Ground",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -81,7 +81,7 @@
 					}
 				},
 				{
-					"type": "Sprite8",
+					"type": "PlayerGhost",
 					"properties": {
 						"initially-visible": false,
 						"initial-animation": "Animation 1",
@@ -121,7 +121,7 @@
 					}
 				},
 				{
-					"type": "Sprite9",
+					"type": "Cloud",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -150,7 +150,7 @@
 					}
 				},
 				{
-					"type": "Sprite9",
+					"type": "Cloud",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -179,7 +179,7 @@
 					}
 				},
 				{
-					"type": "Sprite9",
+					"type": "Cloud",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -208,7 +208,7 @@
 					}
 				},
 				{
-					"type": "Sprite9",
+					"type": "Cloud",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -237,7 +237,7 @@
 					}
 				},
 				{
-					"type": "Sprite9",
+					"type": "Cloud",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -266,7 +266,7 @@
 					}
 				},
 				{
-					"type": "Sprite9",
+					"type": "Cloud",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -295,7 +295,7 @@
 					}
 				},
 				{
-					"type": "Sprite9",
+					"type": "Cloud",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -324,7 +324,7 @@
 					}
 				},
 				{
-					"type": "Sprite9",
+					"type": "Cloud",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -353,7 +353,7 @@
 					}
 				},
 				{
-					"type": "Sprite9",
+					"type": "Cloud",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -382,7 +382,7 @@
 					}
 				},
 				{
-					"type": "Sprite9",
+					"type": "Cloud",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -411,7 +411,7 @@
 					}
 				},
 				{
-					"type": "Sprite9",
+					"type": "Cloud",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -440,7 +440,7 @@
 					}
 				},
 				{
-					"type": "Sprite9",
+					"type": "Cloud",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -469,7 +469,7 @@
 					}
 				},
 				{
-					"type": "Sprite9",
+					"type": "Cloud",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -498,7 +498,7 @@
 					}
 				},
 				{
-					"type": "Sprite9",
+					"type": "Cloud",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -527,7 +527,7 @@
 					}
 				},
 				{
-					"type": "Sprite9",
+					"type": "Cloud",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -556,7 +556,7 @@
 					}
 				},
 				{
-					"type": "Sprite9",
+					"type": "Cloud",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -585,7 +585,7 @@
 					}
 				},
 				{
-					"type": "Sprite9",
+					"type": "Cloud",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -614,7 +614,7 @@
 					}
 				},
 				{
-					"type": "Sprite9",
+					"type": "Cloud",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -643,7 +643,7 @@
 					}
 				},
 				{
-					"type": "Sprite9",
+					"type": "Cloud",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -672,7 +672,182 @@
 					}
 				},
 				{
-					"type": "Sprite6",
+					"type": "Platform",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 81,
+					"instanceVariables": {},
+					"behaviors": {
+						"Jumpthru": {
+							"properties": {
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 478,
+						"y": 626,
+						"width": 263,
+						"height": 64,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Platform",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 83,
+					"instanceVariables": {},
+					"behaviors": {
+						"Jumpthru": {
+							"properties": {
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 684,
+						"y": 385,
+						"width": 263,
+						"height": 64,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Platform",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 84,
+					"instanceVariables": {},
+					"behaviors": {
+						"Jumpthru": {
+							"properties": {
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 1074,
+						"y": 281,
+						"width": 263,
+						"height": 64,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Platform",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 85,
+					"instanceVariables": {},
+					"behaviors": {
+						"Jumpthru": {
+							"properties": {
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 1364,
+						"y": 457,
+						"width": 263,
+						"height": 64,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Platform",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 86,
+					"instanceVariables": {},
+					"behaviors": {
+						"Jumpthru": {
+							"properties": {
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 1657,
+						"y": 298,
+						"width": 263,
+						"height": 64,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Player",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -688,7 +863,7 @@
 								"max-speed": 330,
 								"acceleration": 1500,
 								"deceleration": 1500,
-								"jump-strength": 650,
+								"jump-strength": 900,
 								"gravity": 1500,
 								"max-fall-speed": 1000,
 								"double-jump": false,
@@ -703,6 +878,238 @@
 						"y": 777,
 						"width": 75,
 						"height": 78,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Coin",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 87,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 409,
+						"y": 548,
+						"width": 34,
+						"height": 43,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Coin",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 88,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 475,
+						"y": 547,
+						"width": 34,
+						"height": 43,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Coin",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 89,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 545,
+						"y": 545,
+						"width": 34,
+						"height": 43,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Coin",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 90,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1074,
+						"y": 133,
+						"width": 34,
+						"height": 43,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Coin",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 91,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 2037,
+						"y": 297,
+						"width": 34,
+						"height": 43,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Coin",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 92,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 2108,
+						"y": 400,
+						"width": 34,
+						"height": 43,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Coin",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 93,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 2165,
+						"y": 513,
+						"width": 34,
+						"height": 43,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Coin",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 94,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 2206,
+						"y": 638,
+						"width": 34,
+						"height": 43,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

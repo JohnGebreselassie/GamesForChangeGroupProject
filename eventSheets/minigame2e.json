@@ -13,10 +13,10 @@
 			"actions": [
 				{
 					"id": "set-position-to-another-object",
-					"objectClass": "Sprite8",
+					"objectClass": "PlayerGhost",
 					"sid": 126789022978471,
 					"parameters": {
-						"object": "Sprite6",
+						"object": "Player",
 						"image-point-optional": "1"
 					}
 				}

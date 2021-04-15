@@ -141,6 +141,14 @@
 			"author": "Scirra",
 			"version": "r241",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "jumpthru",
+			"name": "Jump-thru",
+			"author": "Scirra",
+			"version": "r241",
+			"bundled": false
 		}
 	],
 	"uniqueId": "1wfs2x4ebcn",
@@ -204,12 +212,17 @@
 			"alien4",
 			"alien5",
 			"returnButton",
-			"Sprite6",
-			"TiledBackground2",
-			"Sprite7",
-			"Sprite8",
-			"Sprite9",
-			"whoCares"
+			"Player",
+			"SkyBackground",
+			"Ground",
+			"PlayerGhost",
+			"Cloud",
+			"whoCares",
+			"Sprite10",
+			"Text2",
+			"spaceInvadersTitle2",
+			"Platform",
+			"Coin"
 		],
 		"subfolders": []
 	},
@@ -224,7 +237,7 @@
 			"StartScreen",
 			"Level1",
 			"SpaceInvaders",
-			"Minigame2",
+			"TakingAWalk",
 			"Minigame3",
 			"Minigame4",
 			"Minigame5",

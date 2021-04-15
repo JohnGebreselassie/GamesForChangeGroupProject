@@ -31,6 +31,31 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-click",
+					"objectClass": "Mouse",
+					"sid": 386065461092313,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 410440832510050,
+					"parameters": {
+						"layout": "TakingAWalk"
+					}
+				}
+			],
+			"sid": 981720655906342
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
 					"sid": 323739232078391,

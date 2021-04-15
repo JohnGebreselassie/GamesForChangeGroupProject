@@ -1,19 +1,14 @@
 {
-	"name": "Sprite8",
+	"name": "Platform",
 	"plugin-id": "Sprite",
-	"sid": 596156054393131,
+	"sid": 344671062481688,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
-			"behaviorId": "scrollto",
-			"name": "ScrollTo",
-			"sid": 140378187940245
-		},
-		{
-			"behaviorId": "Pin",
-			"name": "Pin",
-			"sid": 123752748076383
+			"behaviorId": "jumpthru",
+			"name": "Jumpthru",
+			"sid": 453111252070983
 		}
 	],
 	"effectTypes": [],
@@ -29,12 +24,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2699026,
+						"imageSpriteId": 8440252,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 497115765574361,
+				"sid": 995635152354853,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

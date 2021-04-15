@@ -1,16 +1,10 @@
 {
-	"name": "Sprite7",
+	"name": "Coin",
 	"plugin-id": "Sprite",
-	"sid": 811136682507304,
+	"sid": 589017853593370,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "solid",
-			"name": "Solid",
-			"sid": 480674795310822
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -24,12 +18,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6425106,
+						"imageSpriteId": 6793562,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 708515254747758,
+				"sid": 698533297573998,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
