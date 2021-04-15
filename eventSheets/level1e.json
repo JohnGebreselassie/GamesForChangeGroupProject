@@ -17,6 +17,52 @@
 				{
 					"id": "on-object-clicked",
 					"objectClass": "Mouse",
+					"sid": 788069380998661,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "computerSprite"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 992906151265910,
+					"parameters": {
+						"layout": "Computer"
+					}
+				},
+				{
+					"id": "move-to-bottom",
+					"objectClass": "Amogus2",
+					"sid": 699812029642924
+				},
+				{
+					"id": "move-to-bottom",
+					"objectClass": "Amogus",
+					"sid": 552786659189869
+				},
+				{
+					"id": "move-to-bottom",
+					"objectClass": "Tshirt",
+					"sid": 692356462995190
+				},
+				{
+					"id": "move-to-bottom",
+					"objectClass": "computerSprite",
+					"sid": 734141493885203
+				}
+			],
+			"sid": 454063277086094
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
 					"sid": 817471311524258,
 					"parameters": {
 						"mouse-button": "left",
@@ -130,52 +176,6 @@
 				}
 			],
 			"sid": 214439871764962
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-object-clicked",
-					"objectClass": "Mouse",
-					"sid": 174721985702415,
-					"parameters": {
-						"mouse-button": "left",
-						"click-type": "clicked",
-						"object-clicked": "computerSprite"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 909934661407138,
-					"parameters": {
-						"layout": "Computer"
-					}
-				},
-				{
-					"id": "move-to-bottom",
-					"objectClass": "Amogus2",
-					"sid": 428996169688450
-				},
-				{
-					"id": "move-to-bottom",
-					"objectClass": "Amogus",
-					"sid": 701177785826973
-				},
-				{
-					"id": "move-to-bottom",
-					"objectClass": "Tshirt",
-					"sid": 723346886995661
-				},
-				{
-					"id": "move-to-bottom",
-					"objectClass": "computerSprite",
-					"sid": 341123722277826
-				}
-			],
-			"sid": 541513938287167
 		}
 	],
 	"sid": 345356869808954
