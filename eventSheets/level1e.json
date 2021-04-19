@@ -73,6 +73,11 @@
 			],
 			"actions": [
 				{
+					"id": "destroy",
+					"objectClass": "Goal1",
+					"sid": 985358670434546
+				},
+				{
 					"id": "go-to-layout",
 					"objectClass": "System",
 					"sid": 853942980959389,
@@ -84,11 +89,6 @@
 					"id": "destroy",
 					"objectClass": "Tshirt",
 					"sid": 294809312777858
-				},
-				{
-					"id": "destroy",
-					"objectClass": "Goal1",
-					"sid": 587629101886549
 				}
 			],
 			"sid": 189386714248495
@@ -126,6 +126,11 @@
 			],
 			"actions": [
 				{
+					"id": "destroy",
+					"objectClass": "Goal2",
+					"sid": 898510401444244
+				},
+				{
 					"id": "go-to-layout",
 					"objectClass": "System",
 					"sid": 635494999296580,
@@ -137,11 +142,6 @@
 					"id": "destroy",
 					"objectClass": "InvisibleBedSprite",
 					"sid": 536969755910603
-				},
-				{
-					"id": "destroy",
-					"objectClass": "Goal2",
-					"sid": 809337052574527
 				}
 			],
 			"sid": 934635244500233
@@ -162,17 +162,17 @@
 			],
 			"actions": [
 				{
+					"id": "destroy",
+					"objectClass": "Goal3",
+					"sid": 300293410747578
+				},
+				{
 					"id": "go-to-layout",
 					"objectClass": "System",
 					"sid": 629025413093706,
 					"parameters": {
 						"layout": "Act1-3"
 					}
-				},
-				{
-					"id": "destroy",
-					"objectClass": "Goal3",
-					"sid": 268408838011478
 				}
 			],
 			"sid": 214439871764962

@@ -222,7 +222,8 @@
 			"Text2",
 			"spaceInvadersTitle2",
 			"Platform",
-			"Coin"
+			"Coin",
+			"border"
 		],
 		"subfolders": []
 	},

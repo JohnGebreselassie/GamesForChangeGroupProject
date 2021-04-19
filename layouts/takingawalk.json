@@ -278,8 +278,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 2149,
-						"y": 631,
+						"x": 2097,
+						"y": 625,
 						"width": 134,
 						"height": 141,
 						"originX": 0.5,
@@ -1110,6 +1110,35 @@
 						"y": 638,
 						"width": 34,
 						"height": 43,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "border",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 95,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 2779,
+						"y": 416,
+						"width": 53,
+						"height": 816,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

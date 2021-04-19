@@ -22,6 +22,58 @@
 				}
 			],
 			"sid": 403018472030367
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Coin",
+					"sid": 740027037897012,
+					"parameters": {
+						"object": "Player"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Coin",
+					"sid": 957008047726890
+				}
+			],
+			"sid": 197339722803943
+		},
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 537819652433845
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 422354508267330,
+					"parameters": {
+						"object": "border"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Player",
+					"sid": 939415712538214,
+					"parameters": {
+						"x": "163",
+						"y": "777"
+					}
+				}
+			],
+			"sid": 599238196195585
 		}
 	],
 	"sid": 571980595442199
