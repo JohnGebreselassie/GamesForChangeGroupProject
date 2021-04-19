@@ -9,11 +9,6 @@
 			"behaviorId": "bound",
 			"name": "BoundToLayout",
 			"sid": 974984169607732
-		},
-		{
-			"behaviorId": "MoveTo",
-			"name": "MoveTo",
-			"sid": 442013117765102
 		}
 	],
 	"effectTypes": [],

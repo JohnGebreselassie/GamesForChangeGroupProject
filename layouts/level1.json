@@ -117,9 +117,9 @@
 					"behaviors": {},
 					"world": {
 						"x": 394,
-						"y": 304,
+						"y": 281,
 						"width": 269,
-						"height": 86,
+						"height": 72,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -232,10 +232,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 798,
-						"y": 219,
-						"width": 77,
-						"height": 71,
+						"x": 811.5,
+						"y": 221,
+						"width": 40,
+						"height": 67,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -332,8 +332,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 147,
-						"y": 411,
+						"x": 143,
+						"y": 423,
 						"width": 170,
 						"height": 53,
 						"originX": 0,
@@ -374,8 +374,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 319,
-						"y": 411,
+						"x": 317,
+						"y": 426,
 						"width": 130,
 						"height": 53,
 						"originX": 0,
@@ -416,8 +416,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 440,
-						"y": 411,
+						"x": 443,
+						"y": 423,
 						"width": 130,
 						"height": 53,
 						"originX": 0,
@@ -459,9 +459,51 @@
 					"behaviors": {},
 					"world": {
 						"x": 570,
-						"y": 411,
+						"y": 423,
 						"width": 257,
 						"height": 53,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "goal6",
+					"properties": {
+						"text": "Click around the room to finish these goals!",
+						"enable-bbcode": true,
+						"font": "PixelOperator8-Bold",
+						"size": 13,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 106,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 140,
+						"y": 394,
+						"width": 677,
+						"height": 30,
 						"originX": 0,
 						"originY": 0,
 						"color": [

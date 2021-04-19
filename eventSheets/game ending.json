@@ -14,10 +14,10 @@
 				{
 					"id": "typewriter-text",
 					"objectClass": "finishText",
-					"sid": 597882695339843,
+					"sid": 356476446873609,
 					"parameters": {
 						"text": "\"You've improved your chosen human's mental health! During this pandemic, there has been a significant decline in people's mental health, but doing quick simple things can make a difference. Cleaning and taking a break from things can help a lot.\"",
-						"duration": "20"
+						"duration": "10"
 					}
 				}
 			],

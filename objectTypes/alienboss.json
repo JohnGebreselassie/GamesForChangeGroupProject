@@ -1,19 +1,14 @@
 {
-	"name": "alien5",
+	"name": "alienBoss",
 	"plugin-id": "Sprite",
-	"sid": 615244065119924,
+	"sid": 683766459854182,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "bound",
 			"name": "BoundToLayout",
-			"sid": 982326831205905
-		},
-		{
-			"behaviorId": "MoveTo",
-			"name": "MoveTo",
-			"sid": 300521594839592
+			"sid": 905624724416673
 		}
 	],
 	"effectTypes": [],
@@ -29,7 +24,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9386228,
+						"imageSpriteId": 4664116,
 						"collisionPoly": {
 							"points": [
 								0.1404494382022472,
@@ -54,7 +49,7 @@
 						"duration": 1
 					}
 				],
-				"sid": 812525852817027,
+				"sid": 190438626723892,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

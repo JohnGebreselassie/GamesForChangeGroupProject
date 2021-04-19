@@ -43,6 +43,11 @@
 					"id": "move-to-top",
 					"objectClass": "Tshirt",
 					"sid": 244451943733216
+				},
+				{
+					"id": "move-to-top",
+					"objectClass": "InvisibleBedSprite",
+					"sid": 457606298843440
 				}
 			],
 			"sid": 509810534798950

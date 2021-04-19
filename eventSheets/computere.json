@@ -138,11 +138,11 @@
 				{
 					"id": "compare-eventvar",
 					"objectClass": "System",
-					"sid": 255445121730377,
+					"sid": 116028669124419,
 					"parameters": {
 						"variable": "pointsSpace",
-						"comparison": 0,
-						"value": "45"
+						"comparison": 5,
+						"value": "55"
 					}
 				}
 			],

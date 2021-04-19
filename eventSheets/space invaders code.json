@@ -12,6 +12,16 @@
 			"sid": 272620570973854
 		},
 		{
+			"eventType": "variable",
+			"name": "alienBossHP",
+			"type": "number",
+			"initialValue": "10",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 547592494162302
+		},
+		{
 			"eventType": "block",
 			"conditions": [],
 			"actions": [],
@@ -79,69 +89,14 @@
 						"variable": "pointsSpace",
 						"value": "5"
 					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "bullet",
+					"sid": 528199675466916
 				}
 			],
 			"sid": 791622205284459
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "alien2",
-					"sid": 507084013518677,
-					"parameters": {
-						"object": "bullet"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "destroy",
-					"objectClass": "alien2",
-					"sid": 503084256584113
-				},
-				{
-					"id": "add-to-eventvar",
-					"objectClass": "System",
-					"sid": 811625141856234,
-					"parameters": {
-						"variable": "pointsSpace",
-						"value": "5"
-					}
-				}
-			],
-			"sid": 644860392425613
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "alien3",
-					"sid": 453004580954628,
-					"parameters": {
-						"object": "bullet"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "destroy",
-					"objectClass": "alien3",
-					"sid": 393535442765396
-				},
-				{
-					"id": "add-to-eventvar",
-					"objectClass": "System",
-					"sid": 879347807752235,
-					"parameters": {
-						"variable": "pointsSpace",
-						"value": "5"
-					}
-				}
-			],
-			"sid": 218378464602221
 		},
 		{
 			"eventType": "block",
@@ -188,11 +143,11 @@
 				{
 					"id": "compare-eventvar",
 					"objectClass": "System",
-					"sid": 704070453889028,
+					"sid": 450997257726822,
 					"parameters": {
 						"variable": "pointsSpace",
-						"comparison": 0,
-						"value": "45"
+						"comparison": 5,
+						"value": "55"
 					}
 				}
 			],
@@ -229,36 +184,6 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "alien4",
-					"sid": 983432358294626,
-					"parameters": {
-						"object": "bullet"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "destroy",
-					"objectClass": "alien4",
-					"sid": 125189035967686
-				},
-				{
-					"id": "add-to-eventvar",
-					"objectClass": "System",
-					"sid": 295864190377082,
-					"parameters": {
-						"variable": "pointsSpace",
-						"value": "5"
-					}
-				}
-			],
-			"sid": 685209171547018
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
 					"id": "compare-progress",
 					"objectClass": "Lvl1ProgressBar",
 					"sid": 414850981952377,
@@ -279,6 +204,156 @@
 				}
 			],
 			"sid": 458153329255270
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 359206069119286,
+					"parameters": {
+						"variable": "pointsSpace",
+						"comparison": 0,
+						"value": "50"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "alienBoss",
+					"sid": 656899956101496,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "instructionsSpace",
+					"sid": 394892393018820,
+					"parameters": {
+						"text": "\"Shoot down the Alien Boss! It seems to have more HP than the ones before!\""
+					}
+				}
+			],
+			"sid": 320137440712518
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 919440624353681,
+					"parameters": {
+						"interval-seconds": "0.5"
+					}
+				},
+				{
+					"id": "is-visible",
+					"objectClass": "alienBoss",
+					"sid": 291032753719134
+				}
+			],
+			"actions": [
+				{
+					"id": "set-y",
+					"objectClass": "alienBoss",
+					"sid": 435541216799231,
+					"parameters": {
+						"y": "random(60,300)"
+					}
+				},
+				{
+					"id": "set-x",
+					"objectClass": "alienBoss",
+					"sid": 258326562044578,
+					"parameters": {
+						"x": "random(50,750)"
+					}
+				}
+			],
+			"sid": 220990088640738
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "collisions-enabled",
+					"objectClass": "borderSpace",
+					"sid": 476870678212029
+				}
+			],
+			"actions": [],
+			"sid": 411618504839444
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "alienBoss",
+					"sid": 303093060317979,
+					"parameters": {
+						"object": "bullet"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 704505301997239,
+					"parameters": {
+						"variable": "alienBossHP",
+						"value": "1"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "bullet",
+					"sid": 692982826010667
+				}
+			],
+			"sid": 129940934856709
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 479779373269023,
+					"parameters": {
+						"variable": "alienBossHP",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "alienBoss",
+					"sid": 762477485199575
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 706831377049709,
+					"parameters": {
+						"variable": "pointsSpace",
+						"value": "5"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "bullet",
+					"sid": 603092366961974
+				}
+			],
+			"sid": 843744902116621
 		}
 	],
 	"sid": 418975288640909
