@@ -2,6 +2,16 @@
 	"name": "Minigame2e",
 	"events": [
 		{
+			"eventType": "variable",
+			"name": "totalCoins",
+			"type": "number",
+			"initialValue": "14",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 942288507294153
+		},
+		{
 			"eventType": "block",
 			"conditions": [
 				{
@@ -40,6 +50,26 @@
 					"id": "destroy",
 					"objectClass": "Coin",
 					"sid": 957008047726890
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 310419847485511,
+					"parameters": {
+						"audio-file": "Point gained",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "subtract-from-eventvar",
+					"objectClass": "System",
+					"sid": 896709055437620,
+					"parameters": {
+						"variable": "totalCoins",
+						"value": "1"
+					}
 				}
 			],
 			"sid": 197339722803943
@@ -74,6 +104,128 @@
 				}
 			],
 			"sid": 599238196195585
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 884679275949257
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 283857100003104,
+					"parameters": {
+						"audio-file": "Minigame2 song",
+						"loop": "looping",
+						"volume": "-5",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 511727510335656
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-end-of-layout",
+					"objectClass": "System",
+					"sid": 112418675944511
+				}
+			],
+			"actions": [
+				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 738164303599363
+				}
+			],
+			"sid": 682552443080044
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 430544623754098,
+					"parameters": {
+						"variable": "totalCoins",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 418971809196373,
+					"parameters": {
+						"layout": "Computer"
+					}
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 582166743308331,
+					"parameters": {
+						"variable": "Lvl1Score",
+						"value": "5"
+					}
+				},
+				{
+					"id": "set-progress",
+					"objectClass": "Lvl1ProgressBar",
+					"sid": 721457934571366,
+					"parameters": {
+						"value": "Lvl1Score"
+					}
+				}
+			],
+			"sid": 535123847902127
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-progress",
+					"objectClass": "Lvl1ProgressBar",
+					"sid": 565594224048774,
+					"parameters": {
+						"comparison": 0,
+						"value": "100"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 497008173444101,
+					"parameters": {
+						"layout": "EndScreen"
+					}
+				}
+			],
+			"sid": 520946386277428
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 169809390991580
+				}
+			],
+			"actions": [],
+			"sid": 171318808730958
 		}
 	],
 	"sid": 571980595442199

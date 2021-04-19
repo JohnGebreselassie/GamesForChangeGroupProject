@@ -73,6 +73,14 @@
 					"parameters": {
 						"layout": "Instructions"
 					}
+				},
+				{
+					"id": "save",
+					"objectClass": "System",
+					"sid": 155524495657309,
+					"parameters": {
+						"slot": "\"resetGame\""
+					}
 				}
 			],
 			"sid": 972673133801008

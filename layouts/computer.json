@@ -57,10 +57,10 @@
 						}
 					},
 					"world": {
-						"x": 145.5,
-						"y": 186.77142857142857,
-						"width": 198,
-						"height": 158,
+						"x": 118.5,
+						"y": 92.3,
+						"width": 153,
+						"height": 116.00000000000001,
 						"originX": 0.5,
 						"originY": 0.4928571428571429,
 						"color": [
@@ -79,7 +79,7 @@
 						"text": "Space Attackers",
 						"enable-bbcode": true,
 						"font": "PixelOperatorSC",
-						"size": 28,
+						"size": 24,
 						"line-height": 0,
 						"bold": false,
 						"italic": false,
@@ -99,10 +99,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 45,
-						"y": 265,
-						"width": 192,
-						"height": 113,
+						"x": 38,
+						"y": 158,
+						"width": 170,
+						"height": 90,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -141,8 +141,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 11,
-						"y": 413,
+						"x": 300,
+						"y": 411,
 						"width": 229,
 						"height": 61,
 						"originX": 0,
@@ -176,10 +176,10 @@
 						}
 					},
 					"world": {
-						"x": 681,
-						"y": 193,
-						"width": 158,
-						"height": 158,
+						"x": 717,
+						"y": 93,
+						"width": 122,
+						"height": 110,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -198,7 +198,7 @@
 						"text": "Taking a Walk",
 						"enable-bbcode": true,
 						"font": "PixelOperatorSC",
-						"size": 28,
+						"size": 21,
 						"line-height": 0,
 						"bold": false,
 						"italic": false,
@@ -218,10 +218,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 585,
-						"y": 272,
-						"width": 192,
-						"height": 113,
+						"x": 626,
+						"y": 162,
+						"width": 187,
+						"height": 46,
 						"originX": 0,
 						"originY": 0,
 						"color": [

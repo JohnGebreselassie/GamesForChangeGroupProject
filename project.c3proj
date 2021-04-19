@@ -217,13 +217,15 @@
 			"Ground",
 			"PlayerGhost",
 			"Cloud",
-			"whoCares",
 			"WalkIcon",
 			"Text2",
 			"spaceInvadersTitle2",
 			"Platform",
 			"Coin",
-			"border"
+			"border",
+			"TextInput",
+			"finishText",
+			"instructionsEnd"
 		],
 		"subfolders": []
 	},
@@ -246,7 +248,8 @@
 			"Act1-2",
 			"Act1-3",
 			"Instructions",
-			"Computer"
+			"Computer",
+			"EndScreen"
 		],
 		"subfolders": []
 	},
@@ -260,7 +263,8 @@
 			"InstructionsE",
 			"ComputerE",
 			"Act1-3E",
-			"Minigame2e"
+			"Minigame2e",
+			"Game Ending"
 		],
 		"subfolders": []
 	},
@@ -270,7 +274,18 @@
 			"subfolders": []
 		},
 		"sound": {
-			"items": [],
+			"items": [
+				{
+					"name": "Minigame2 song.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 842706406459057
+				},
+				{
+					"name": "Point gained.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 316338698227613
+				}
+			],
 			"subfolders": []
 		},
 		"music": {

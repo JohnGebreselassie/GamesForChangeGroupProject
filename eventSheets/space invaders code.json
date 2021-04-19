@@ -254,6 +254,31 @@
 				}
 			],
 			"sid": 685209171547018
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-progress",
+					"objectClass": "Lvl1ProgressBar",
+					"sid": 414850981952377,
+					"parameters": {
+						"comparison": 0,
+						"value": "100"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 776691086924655,
+					"parameters": {
+						"layout": "EndScreen"
+					}
+				}
+			],
+			"sid": 458153329255270
 		}
 	],
 	"sid": 418975288640909

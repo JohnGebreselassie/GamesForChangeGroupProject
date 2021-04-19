@@ -1,0 +1,79 @@
+{
+	"name": "Game Ending",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 582018518652237
+				}
+			],
+			"actions": [
+				{
+					"id": "typewriter-text",
+					"objectClass": "finishText",
+					"sid": 597882695339843,
+					"parameters": {
+						"text": "\"You've improved your chosen human's mental health! During this pandemic, there has been a significant decline in people's mental health, but doing quick simple things can make a difference. Cleaning and taking a break from things can help a lot.\"",
+						"duration": "20"
+					}
+				}
+			],
+			"sid": 151673910718731
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-typewriter-text-finished",
+					"objectClass": "finishText",
+					"sid": 643272757421898
+				}
+			],
+			"actions": [
+				{
+					"id": "typewriter-text",
+					"objectClass": "instructionsEnd",
+					"sid": 425511255525409,
+					"parameters": {
+						"text": "\"Click any key to reset to recieve a better time.\"",
+						"duration": "5"
+					}
+				}
+			],
+			"sid": 356644491049612
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-any-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 213688426337042
+				}
+			],
+			"actions": [
+				{
+					"id": "load",
+					"objectClass": "System",
+					"sid": 469481567918263,
+					"parameters": {
+						"slot": "\"resetGame\""
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 790712494991041,
+					"parameters": {
+						"layout": "StartScreen"
+					}
+				}
+			],
+			"sid": 504824233127581
+		}
+	],
+	"sid": 413592380075887
+}

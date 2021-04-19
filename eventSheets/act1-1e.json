@@ -25,10 +25,10 @@
 				{
 					"id": "add-to-eventvar",
 					"objectClass": "System",
-					"sid": 262922546276918,
+					"sid": 756691398386877,
 					"parameters": {
 						"variable": "Lvl1Score",
-						"value": "10"
+						"value": "30"
 					}
 				},
 				{
@@ -78,6 +78,31 @@
 				}
 			],
 			"sid": 674743837351928
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-progress",
+					"objectClass": "Lvl1ProgressBar",
+					"sid": 586226200922139,
+					"parameters": {
+						"comparison": 0,
+						"value": "100"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 289421777015977,
+					"parameters": {
+						"layout": "EndScreen"
+					}
+				}
+			],
+			"sid": 601963897985313
 		}
 	],
 	"sid": 863504082061432
