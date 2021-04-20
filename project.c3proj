@@ -220,7 +220,8 @@
 			"borderSpace",
 			"Button",
 			"Sprite6",
-			"Text3"
+			"Text3",
+			"platform1"
 		],
 		"subfolders": []
 	},
