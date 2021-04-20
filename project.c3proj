@@ -218,7 +218,9 @@
 			"instructionsSpace",
 			"alienBoss",
 			"borderSpace",
-			"Button"
+			"Button",
+			"Sprite6",
+			"Text3"
 		],
 		"subfolders": []
 	},
