@@ -217,7 +217,8 @@
 			"goal6",
 			"instructionsSpace",
 			"alienBoss",
-			"borderSpace"
+			"borderSpace",
+			"Button"
 		],
 		"subfolders": []
 	},
@@ -255,7 +256,7 @@
 			"InstructionsE",
 			"ComputerE",
 			"Act1-3E",
-			"Minigame2e",
+			"TakingAWalkE",
 			"Game Ending"
 		],
 		"subfolders": []
