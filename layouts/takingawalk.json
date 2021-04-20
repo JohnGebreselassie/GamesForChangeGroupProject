@@ -6,6 +6,41 @@
 			"overriden": 0,
 			"instances": [
 				{
+					"type": "Platform",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 117,
+					"instanceVariables": {},
+					"behaviors": {
+						"Jumpthru": {
+							"properties": {
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 1861,
+						"y": 910,
+						"width": 3720,
+						"height": 104,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "SkyBackground",
 					"properties": {
 						"initially-visible": true,
@@ -811,55 +846,6 @@
 					}
 				},
 				{
-					"type": "Player",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 14,
-					"instanceVariables": {},
-					"behaviors": {
-						"Platform": {
-							"properties": {
-								"max-speed": 330,
-								"acceleration": 1500,
-								"deceleration": 1500,
-								"jump-strength": 900,
-								"gravity": 1500,
-								"max-fall-speed": 1000,
-								"double-jump": false,
-								"jump-sustain": 0,
-								"default-controls": true,
-								"enabled": true
-							}
-						},
-						"BoundToLayout": {
-							"properties": {
-								"bound-by": "edge"
-							}
-						}
-					},
-					"world": {
-						"x": 163,
-						"y": 777,
-						"width": 75,
-						"height": 78,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Coin",
 					"properties": {
 						"initially-visible": true,
@@ -1313,10 +1299,59 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 2496,
-						"y": 484,
+						"x": 2509,
+						"y": 511,
 						"width": 34,
 						"height": 43,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Player",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 14,
+					"instanceVariables": {},
+					"behaviors": {
+						"Platform": {
+							"properties": {
+								"max-speed": 330,
+								"acceleration": 1500,
+								"deceleration": 1500,
+								"jump-strength": 900,
+								"gravity": 1500,
+								"max-fall-speed": 1000,
+								"double-jump": false,
+								"jump-sustain": 0,
+								"default-controls": true,
+								"enabled": true
+							}
+						},
+						"BoundToLayout": {
+							"properties": {
+								"bound-by": "edge"
+							}
+						}
+					},
+					"world": {
+						"x": 163,
+						"y": 777,
+						"width": 75,
+						"height": 78,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -1386,7 +1421,7 @@
 					},
 					"world": {
 						"x": 814,
-						"y": 861,
+						"y": 905,
 						"width": 542.0320000000002,
 						"height": 111.17599999999993,
 						"originX": 0.5,
@@ -1422,7 +1457,7 @@
 					},
 					"world": {
 						"x": 1355,
-						"y": 862,
+						"y": 905,
 						"width": 542.0320000000002,
 						"height": 111.17599999999993,
 						"originX": 0.5,
@@ -1458,7 +1493,7 @@
 					},
 					"world": {
 						"x": 1896,
-						"y": 862,
+						"y": 905,
 						"width": 542.0320000000002,
 						"height": 111.17599999999993,
 						"originX": 0.5,
@@ -1494,7 +1529,7 @@
 					},
 					"world": {
 						"x": 2437,
-						"y": 862,
+						"y": 905,
 						"width": 542.0320000000002,
 						"height": 111.17599999999993,
 						"originX": 0.5,
@@ -1530,7 +1565,7 @@
 					},
 					"world": {
 						"x": 2979,
-						"y": 861,
+						"y": 905,
 						"width": 542.0320000000002,
 						"height": 111.17599999999993,
 						"originX": 0.5,
@@ -1566,7 +1601,7 @@
 					},
 					"world": {
 						"x": 3520,
-						"y": 861,
+						"y": 905,
 						"width": 542.0320000000002,
 						"height": 111.17599999999993,
 						"originX": 0.5,
