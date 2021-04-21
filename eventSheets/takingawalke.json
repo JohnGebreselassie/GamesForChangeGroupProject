@@ -5,7 +5,7 @@
 			"eventType": "variable",
 			"name": "totalCoins",
 			"type": "number",
-			"initialValue": "14",
+			"initialValue": "15",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,

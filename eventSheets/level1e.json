@@ -53,6 +53,14 @@
 					"id": "move-to-bottom",
 					"objectClass": "computerSprite",
 					"sid": 734141493885203
+				},
+				{
+					"id": "set-visible",
+					"objectClass": "Lvl1ProgressBar",
+					"sid": 698842704529916,
+					"parameters": {
+						"visibility": "invisible"
+					}
 				}
 			],
 			"sid": 454063277086094
