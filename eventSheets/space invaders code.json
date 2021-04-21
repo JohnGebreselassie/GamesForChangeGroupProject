@@ -69,6 +69,28 @@
 					"parameters": {
 						"angle": "270"
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 366111271538269,
+					"parameters": {
+						"audio-file": "bullet sound",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 160883978842710,
+					"parameters": {
+						"audio-file": "bullet sound",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 299988633884393

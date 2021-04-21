@@ -184,6 +184,34 @@
 				}
 			],
 			"sid": 130719989480527
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 875193230427194,
+					"parameters": {
+						"variable": "totalCoins",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "WalkIcon",
+					"sid": 883294121019813
+				},
+				{
+					"id": "destroy",
+					"objectClass": "spaceInvadersTitle2",
+					"sid": 191431217529216
+				}
+			],
+			"sid": 563312599235000
 		}
 	],
 	"sid": 905229088581073

@@ -238,9 +238,6 @@
 			"Level1",
 			"SpaceInvaders",
 			"TakingAWalk",
-			"Minigame3",
-			"Minigame4",
-			"Minigame5",
 			"Act1-1",
 			"Act1-2",
 			"Act1-3",
@@ -281,6 +278,11 @@
 					"name": "Point gained.webm",
 					"type": "audio/webm; codecs=opus",
 					"sid": 316338698227613
+				},
+				{
+					"name": "bullet sound.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 406134595586878
 				}
 			],
 			"subfolders": []
