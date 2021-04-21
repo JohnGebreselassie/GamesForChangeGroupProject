@@ -15,11 +15,21 @@
 			"eventType": "variable",
 			"name": "alienBossHP",
 			"type": "number",
-			"initialValue": "10",
+			"initialValue": "20",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
 			"sid": 547592494162302
+		},
+		{
+			"eventType": "variable",
+			"name": "alienDirection",
+			"type": "number",
+			"initialValue": "30",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 314775837582349
 		},
 		{
 			"eventType": "block",
@@ -62,6 +72,82 @@
 				}
 			],
 			"sid": 299988633884393
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 983668936266802,
+					"parameters": {
+						"interval-seconds": "0.2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-x",
+					"objectClass": "alien1",
+					"sid": 229099078845549,
+					"parameters": {
+						"x": "alien1.X + alienDirection"
+					}
+				}
+			],
+			"sid": 623157644235538
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-x",
+					"objectClass": "alien1",
+					"sid": 977572560202523,
+					"parameters": {
+						"comparison": 5,
+						"x-co-ordinate": "800"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 251584838230725,
+					"parameters": {
+						"variable": "alienDirection",
+						"value": "-30"
+					}
+				}
+			],
+			"sid": 986928293176060
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-x",
+					"objectClass": "alien1",
+					"sid": 186008366122324,
+					"parameters": {
+						"comparison": 3,
+						"x-co-ordinate": "50"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 286136472114244,
+					"parameters": {
+						"variable": "alienDirection",
+						"value": "30"
+					}
+				}
+			],
+			"sid": 654290198224368
 		},
 		{
 			"eventType": "block",
@@ -245,9 +331,9 @@
 				{
 					"id": "every-x-seconds",
 					"objectClass": "System",
-					"sid": 919440624353681,
+					"sid": 133088718507765,
 					"parameters": {
-						"interval-seconds": "0.5"
+						"interval-seconds": "0.1"
 					}
 				},
 				{
@@ -260,17 +346,17 @@
 				{
 					"id": "set-y",
 					"objectClass": "alienBoss",
-					"sid": 435541216799231,
+					"sid": 737910009097697,
 					"parameters": {
-						"y": "random(60,300)"
+						"y": "max(60, min(300, alienBoss.Y + random(-35,35)))"
 					}
 				},
 				{
 					"id": "set-x",
 					"objectClass": "alienBoss",
-					"sid": 258326562044578,
+					"sid": 637641260026560,
 					"parameters": {
-						"x": "random(50,750)"
+						"x": "min(750, max(50, alienBoss.X + random(-75, 75)))"
 					}
 				}
 			],

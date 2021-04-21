@@ -98,7 +98,9 @@
 						"live-preview": false
 					},
 					"uid": 12,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"direction": 30
+					},
 					"behaviors": {
 						"BoundToLayout": {
 							"properties": {
@@ -337,7 +339,9 @@
 						"live-preview": false
 					},
 					"uid": 13,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"direction": 30
+					},
 					"behaviors": {
 						"BoundToLayout": {
 							"properties": {
@@ -372,7 +376,9 @@
 						"live-preview": false
 					},
 					"uid": 22,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"direction": 30
+					},
 					"behaviors": {
 						"BoundToLayout": {
 							"properties": {
@@ -407,7 +413,9 @@
 						"live-preview": false
 					},
 					"uid": 23,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"direction": 30
+					},
 					"behaviors": {
 						"BoundToLayout": {
 							"properties": {
@@ -442,7 +450,9 @@
 						"live-preview": false
 					},
 					"uid": 24,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"direction": 30
+					},
 					"behaviors": {
 						"BoundToLayout": {
 							"properties": {
@@ -477,7 +487,9 @@
 						"live-preview": false
 					},
 					"uid": 41,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"direction": 30
+					},
 					"behaviors": {
 						"BoundToLayout": {
 							"properties": {
@@ -512,7 +524,9 @@
 						"live-preview": false
 					},
 					"uid": 53,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"direction": 30
+					},
 					"behaviors": {
 						"BoundToLayout": {
 							"properties": {
@@ -547,7 +561,9 @@
 						"live-preview": false
 					},
 					"uid": 54,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"direction": 30
+					},
 					"behaviors": {
 						"BoundToLayout": {
 							"properties": {
@@ -582,7 +598,9 @@
 						"live-preview": false
 					},
 					"uid": 108,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"direction": 30
+					},
 					"behaviors": {
 						"BoundToLayout": {
 							"properties": {
@@ -617,7 +635,9 @@
 						"live-preview": false
 					},
 					"uid": 109,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"direction": 30
+					},
 					"behaviors": {
 						"BoundToLayout": {
 							"properties": {
