@@ -221,7 +221,8 @@
 			"Button",
 			"Sprite6",
 			"Text3",
-			"platform1"
+			"platform1",
+			"coin1"
 		],
 		"subfolders": []
 	},
