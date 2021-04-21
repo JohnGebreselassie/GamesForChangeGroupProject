@@ -36,9 +36,9 @@
 				{
 					"id": "typewriter-text",
 					"objectClass": "instructionsEnd",
-					"sid": 425511255525409,
+					"sid": 487263186842633,
 					"parameters": {
-						"text": "\"Click any key to reset to recieve a better time.\"",
+						"text": "\"Press C to reset to recieve a better time.\"",
 						"duration": "5"
 					}
 				}
@@ -49,9 +49,12 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-any-key-pressed",
+					"id": "on-key-pressed",
 					"objectClass": "Keyboard",
-					"sid": 213688426337042
+					"sid": 679501622572862,
+					"parameters": {
+						"key": 67
+					}
 				}
 			],
 			"actions": [
