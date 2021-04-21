@@ -858,213 +858,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 409,
-						"y": 548,
-						"width": 34,
-						"height": 43,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Coin",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 88,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 475,
-						"y": 547,
-						"width": 34,
-						"height": 43,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Coin",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 89,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 545,
-						"y": 545,
-						"width": 34,
-						"height": 43,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Coin",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 90,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1074,
-						"y": 133,
-						"width": 34,
-						"height": 43,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Coin",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 91,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 2037,
-						"y": 297,
-						"width": 34,
-						"height": 43,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Coin",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 92,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 2108,
-						"y": 400,
-						"width": 34,
-						"height": 43,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Coin",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 93,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 2165,
-						"y": 513,
-						"width": 34,
-						"height": 43,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Coin",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 94,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 2206,
-						"y": 638,
-						"width": 34,
-						"height": 43,
+						"x": 412.5,
+						"y": 546,
+						"width": 53.424,
+						"height": 60.512,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -1107,151 +904,6 @@
 					}
 				},
 				{
-					"type": "Coin",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 96,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1353,
-						"y": 379,
-						"width": 34,
-						"height": 43,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Coin",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 97,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 680,
-						"y": 241,
-						"width": 34,
-						"height": 43,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Coin",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 98,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1077,
-						"y": 751,
-						"width": 34,
-						"height": 43,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Coin",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 99,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1376,
-						"y": 743,
-						"width": 34,
-						"height": 43,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Coin",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 100,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1063,
-						"y": 455,
-						"width": 34,
-						"height": 43,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Platform",
 					"properties": {
 						"initially-visible": true,
@@ -1274,35 +926,6 @@
 						"y": 591,
 						"width": 263,
 						"height": 64,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Coin",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 102,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 2509,
-						"y": 511,
-						"width": 34,
-						"height": 43,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -1791,7 +1414,36 @@
 					}
 				},
 				{
-					"type": "coin1",
+					"type": "Coin",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 88,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 481,
+						"y": 546,
+						"width": 53.424,
+						"height": 60.512,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Coin",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1803,10 +1455,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 411,
-						"y": 550,
-						"width": 54,
-						"height": 55,
+						"x": 545,
+						"y": 546,
+						"width": 53.424,
+						"height": 60.512,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -1820,7 +1472,7 @@
 					}
 				},
 				{
-					"type": "coin1",
+					"type": "Coin",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1832,10 +1484,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 480,
-						"y": 548,
-						"width": 54.00000000000001,
-						"height": 55,
+						"x": 687,
+						"y": 237,
+						"width": 53.424,
+						"height": 60.512,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -1849,7 +1501,7 @@
 					}
 				},
 				{
-					"type": "coin1",
+					"type": "Coin",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1861,10 +1513,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 547,
-						"y": 548,
-						"width": 54.00000000000001,
-						"height": 55,
+						"x": 1072,
+						"y": 149,
+						"width": 53.424,
+						"height": 60.512,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -1878,7 +1530,7 @@
 					}
 				},
 				{
-					"type": "coin1",
+					"type": "Coin",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1890,10 +1542,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 680,
-						"y": 242,
-						"width": 54.00000000000001,
-						"height": 55,
+						"x": 759,
+						"y": 531,
+						"width": 53.424,
+						"height": 60.512,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -1907,7 +1559,7 @@
 					}
 				},
 				{
-					"type": "coin1",
+					"type": "Coin",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1919,10 +1571,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1078,
-						"y": 132,
-						"width": 54.00000000000001,
-						"height": 55,
+						"x": 1022,
+						"y": 467,
+						"width": 53.424,
+						"height": 60.512,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -1936,7 +1588,7 @@
 					}
 				},
 				{
-					"type": "coin1",
+					"type": "Coin",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1948,10 +1600,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1062,
-						"y": 454,
-						"width": 54.00000000000001,
-						"height": 55,
+						"x": 1102,
+						"y": 755,
+						"width": 53.424,
+						"height": 60.512,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -1965,7 +1617,7 @@
 					}
 				},
 				{
-					"type": "coin1",
+					"type": "Coin",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1977,10 +1629,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1082,
-						"y": 750,
-						"width": 54.00000000000001,
-						"height": 55,
+						"x": 1379,
+						"y": 744,
+						"width": 53.424,
+						"height": 60.512,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -1994,7 +1646,7 @@
 					}
 				},
 				{
-					"type": "coin1",
+					"type": "Coin",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -2006,10 +1658,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1382,
-						"y": 743,
-						"width": 54.00000000000001,
-						"height": 55,
+						"x": 1358,
+						"y": 366,
+						"width": 53.424,
+						"height": 60.512,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -2023,7 +1675,7 @@
 					}
 				},
 				{
-					"type": "coin1",
+					"type": "Coin",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -2035,10 +1687,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1358,
-						"y": 375,
-						"width": 54.00000000000001,
-						"height": 55,
+						"x": 1974,
+						"y": 274,
+						"width": 53.424,
+						"height": 60.512,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -2052,7 +1704,7 @@
 					}
 				},
 				{
-					"type": "coin1",
+					"type": "Coin",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -2064,10 +1716,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 2043,
-						"y": 297,
-						"width": 54.00000000000001,
-						"height": 55,
+						"x": 2048,
+						"y": 408,
+						"width": 53.424,
+						"height": 60.512,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -2081,7 +1733,7 @@
 					}
 				},
 				{
-					"type": "coin1",
+					"type": "Coin",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -2093,10 +1745,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 2113,
-						"y": 398,
-						"width": 54.00000000000001,
-						"height": 55,
+						"x": 2137,
+						"y": 537,
+						"width": 53.424,
+						"height": 60.512,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -2110,7 +1762,7 @@
 					}
 				},
 				{
-					"type": "coin1",
+					"type": "Coin",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -2122,10 +1774,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 2170,
-						"y": 511,
-						"width": 54.00000000000001,
-						"height": 55,
+						"x": 2195,
+						"y": 656,
+						"width": 53.424,
+						"height": 60.512,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -2139,7 +1791,7 @@
 					}
 				},
 				{
-					"type": "coin1",
+					"type": "Coin",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -2151,39 +1803,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 2210,
-						"y": 640,
-						"width": 54.00000000000001,
-						"height": 55,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "coin1",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 137,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 2516,
-						"y": 507,
-						"width": 54.00000000000001,
-						"height": 55,
+						"x": 2515,
+						"y": 498,
+						"width": 53.424,
+						"height": 60.512,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
