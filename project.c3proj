@@ -280,9 +280,9 @@
 					"sid": 316338698227613
 				},
 				{
-					"name": "bullet sound.webm",
-					"type": "audio/webm; codecs=opus",
-					"sid": 406134595586878
+					"name": "laser.mp3",
+					"type": "audio/mpeg",
+					"sid": 198633229580730
 				}
 			],
 			"subfolders": []
