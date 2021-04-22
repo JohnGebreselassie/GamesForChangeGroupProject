@@ -326,6 +326,14 @@
 					}
 				},
 				{
+					"id": "set-visible",
+					"objectClass": "bossHP",
+					"sid": 517147962217413,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
 					"id": "set-text",
 					"objectClass": "instructionsSpace",
 					"sid": 394892393018820,
@@ -411,6 +419,14 @@
 					"id": "destroy",
 					"objectClass": "bullet",
 					"sid": 692982826010667
+				},
+				{
+					"id": "set-progress",
+					"objectClass": "bossHP",
+					"sid": 204767355685999,
+					"parameters": {
+						"value": "alienBossHP"
+					}
 				}
 			],
 			"sid": 129940934856709

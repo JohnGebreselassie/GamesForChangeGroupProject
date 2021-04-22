@@ -61,6 +61,11 @@
 					"parameters": {
 						"visibility": "invisible"
 					}
+				},
+				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 337285144766836
 				}
 			],
 			"sid": 454063277086094
@@ -115,7 +120,16 @@
 					}
 				}
 			],
-			"actions": [],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 735656703194652,
+					"parameters": {
+						"layout": "EndScreen"
+					}
+				}
+			],
 			"sid": 442784380271070
 		},
 		{

@@ -222,7 +222,8 @@
 			"Sprite6",
 			"Text3",
 			"platform1",
-			"coin1"
+			"coin1",
+			"bossHP"
 		],
 		"subfolders": []
 	},
@@ -283,6 +284,11 @@
 					"name": "laser.mp3",
 					"type": "audio/mpeg",
 					"sid": 198633229580730
+				},
+				{
+					"name": "game end.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 443257413751995
 				}
 			],
 			"subfolders": []
