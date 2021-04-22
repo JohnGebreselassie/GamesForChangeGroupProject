@@ -76,8 +76,25 @@
 		},
 		{
 			"eventType": "block",
-			"conditions": [],
-			"actions": [],
+			"conditions": [
+				{
+					"id": "is-moving",
+					"objectClass": "Player",
+					"sid": 741383606553838,
+					"behaviorType": "Platform"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Player",
+					"sid": 919874165199417,
+					"parameters": {
+						"animation": "\"Animation 2\"",
+						"from": "beginning"
+					}
+				}
+			],
 			"sid": 537819652433845
 		},
 		{
